@@ -94,6 +94,7 @@ namespace OpenGameFramework.Editor
             AssetDatabase.Refresh();
             
             return;
+/*
             if (s_findedModules.Count == 0)
             {
                 if (s_projectInfo == null)
@@ -130,6 +131,7 @@ namespace OpenGameFramework.Editor
             File.WriteAllText(Path.Combine(Application.dataPath, Constants.PathToPreInitScript), tmpl);
 
             AssetDatabase.Refresh();
+*/
         }
 
         #endregion
@@ -590,7 +592,6 @@ namespace OpenGameFramework.Editor
             DirectoryInfo root = new DirectoryInfo(modulePath);
             
             FileInfo[] files = null;
-            DirectoryInfo[] subDirs = null;
 
             try
             {

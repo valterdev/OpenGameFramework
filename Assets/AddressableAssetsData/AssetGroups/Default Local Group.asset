@@ -21,6 +21,10 @@ MonoBehaviour:
     m_Address: Assets/App/Modules/System/Config/Global_Config.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: ac1f6b3155d4d41b1a37372030dfcd7b
+    m_Address: Assets/App/Modules/Domain/Meta/LiveOps/Prefabs/sdfsd.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 1a1603adaa35241d2b114fc94396c359, type: 2}
   m_SchemaSet:
