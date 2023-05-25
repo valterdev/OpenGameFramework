@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.DI.IServiceDi
+  commentId: T:OpenGameFramework.DI.IServiceDi
+  id: IServiceDi
+  parent: OpenGameFramework.DI
+  children:
+  - OpenGameFramework.DI.IServiceDi.Init
+  - OpenGameFramework.DI.IServiceDi.PreInit
+  langs:
+  - csharp
+  - vb
+  name: IServiceDi
+  nameWithType: IServiceDi
+  fullName: OpenGameFramework.DI.IServiceDi
+  type: Interface
+  source:
+    id: IServiceDi
+    path: ''
+    startLine: 252
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.DI
+  syntax:
+    content: public interface IServiceDi
+    content.vb: Public Interface IServiceDi
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenGameFramework.DI.IServiceDi.PreInit
+  commentId: M:OpenGameFramework.DI.IServiceDi.PreInit
+  id: PreInit
+  parent: OpenGameFramework.DI.IServiceDi
+  langs:
+  - csharp
+  - vb
+  name: PreInit()
+  nameWithType: IServiceDi.PreInit()
+  fullName: OpenGameFramework.DI.IServiceDi.PreInit()
+  type: Method
+  source:
+    id: PreInit
+    path: ''
+    startLine: 254
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.DI
+  syntax:
+    content: void PreInit()
+    content.vb: Sub PreInit
+  overload: OpenGameFramework.DI.IServiceDi.PreInit*
+- uid: OpenGameFramework.DI.IServiceDi.Init
+  commentId: M:OpenGameFramework.DI.IServiceDi.Init
+  id: Init
+  parent: OpenGameFramework.DI.IServiceDi
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: IServiceDi.Init()
+  fullName: OpenGameFramework.DI.IServiceDi.Init()
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 255
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.DI
+  syntax:
+    content: void Init()
+    content.vb: Sub Init
+  overload: OpenGameFramework.DI.IServiceDi.Init*
+references:
+- uid: OpenGameFramework.DI
+  commentId: N:OpenGameFramework.DI
+  name: OpenGameFramework.DI
+  nameWithType: OpenGameFramework.DI
+  fullName: OpenGameFramework.DI
+- uid: OpenGameFramework.DI.IServiceDi.PreInit*
+  commentId: Overload:OpenGameFramework.DI.IServiceDi.PreInit
+  name: PreInit
+  nameWithType: IServiceDi.PreInit
+  fullName: OpenGameFramework.DI.IServiceDi.PreInit
+- uid: OpenGameFramework.DI.IServiceDi.Init*
+  commentId: Overload:OpenGameFramework.DI.IServiceDi.Init
+  name: Init
+  nameWithType: IServiceDi.Init
+  fullName: OpenGameFramework.DI.IServiceDi.Init

@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.Editor.AllUtilsWindow
+  commentId: T:OpenGameFramework.Editor.AllUtilsWindow
+  id: AllUtilsWindow
+  parent: OpenGameFramework.Editor
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AllUtilsWindow
+  nameWithType: AllUtilsWindow
+  fullName: OpenGameFramework.Editor.AllUtilsWindow
+  type: Class
+  source:
+    id: AllUtilsWindow
+    path: ''
+    startLine: 1614
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: 'public class AllUtilsWindow : EditorWindow'
+    content.vb: >-
+      Public Class AllUtilsWindow
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenGameFramework.Editor
+  commentId: N:OpenGameFramework.Editor
+  name: OpenGameFramework.Editor
+  nameWithType: OpenGameFramework.Editor
+  fullName: OpenGameFramework.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

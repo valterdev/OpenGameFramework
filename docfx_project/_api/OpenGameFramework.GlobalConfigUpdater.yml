@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.GlobalConfigUpdater
+  commentId: T:OpenGameFramework.GlobalConfigUpdater
+  id: GlobalConfigUpdater
+  parent: OpenGameFramework
+  children:
+  - OpenGameFramework.GlobalConfigUpdater.callbackOrder
+  - OpenGameFramework.GlobalConfigUpdater.OnPreprocessBuild(BuildReport)
+  langs:
+  - csharp
+  - vb
+  name: GlobalConfigUpdater
+  nameWithType: GlobalConfigUpdater
+  fullName: OpenGameFramework.GlobalConfigUpdater
+  type: Class
+  source:
+    id: GlobalConfigUpdater
+    path: ''
+    startLine: 2180
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: 'public class GlobalConfigUpdater : MonoBehaviour, IPreprocessBuildWithReport'
+    content.vb: >-
+      Public Class GlobalConfigUpdater
+          Inherits MonoBehaviour
+          Implements IPreprocessBuildWithReport
+  inheritance:
+  - System.Object
+  implements:
+  - IPreprocessBuildWithReport
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.GlobalConfigUpdater.callbackOrder
+  commentId: P:OpenGameFramework.GlobalConfigUpdater.callbackOrder
+  id: callbackOrder
+  parent: OpenGameFramework.GlobalConfigUpdater
+  langs:
+  - csharp
+  - vb
+  name: callbackOrder
+  nameWithType: GlobalConfigUpdater.callbackOrder
+  fullName: OpenGameFramework.GlobalConfigUpdater.callbackOrder
+  type: Property
+  source:
+    id: callbackOrder
+    path: ''
+    startLine: 2184
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public int callbackOrder { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property callbackOrder As Integer
+  overload: OpenGameFramework.GlobalConfigUpdater.callbackOrder*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: OpenGameFramework.GlobalConfigUpdater.OnPreprocessBuild(BuildReport)
+  commentId: M:OpenGameFramework.GlobalConfigUpdater.OnPreprocessBuild(BuildReport)
+  id: OnPreprocessBuild(BuildReport)
+  parent: OpenGameFramework.GlobalConfigUpdater
+  langs:
+  - csharp
+  - vb
+  name: OnPreprocessBuild(BuildReport)
+  nameWithType: GlobalConfigUpdater.OnPreprocessBuild(BuildReport)
+  fullName: OpenGameFramework.GlobalConfigUpdater.OnPreprocessBuild(BuildReport)
+  type: Method
+  source:
+    id: OnPreprocessBuild
+    path: ''
+    startLine: 2196
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public void OnPreprocessBuild(BuildReport report)
+    parameters:
+    - id: report
+      type: BuildReport
+    content.vb: Public Sub OnPreprocessBuild(report As BuildReport)
+  overload: OpenGameFramework.GlobalConfigUpdater.OnPreprocessBuild*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenGameFramework
+  commentId: N:OpenGameFramework
+  name: OpenGameFramework
+  nameWithType: OpenGameFramework
+  fullName: OpenGameFramework
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: IPreprocessBuildWithReport
+  commentId: '!:IPreprocessBuildWithReport'
+  isExternal: true
+  name: IPreprocessBuildWithReport
+  nameWithType: IPreprocessBuildWithReport
+  fullName: IPreprocessBuildWithReport
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenGameFramework.GlobalConfigUpdater.callbackOrder*
+  commentId: Overload:OpenGameFramework.GlobalConfigUpdater.callbackOrder
+  name: callbackOrder
+  nameWithType: GlobalConfigUpdater.callbackOrder
+  fullName: OpenGameFramework.GlobalConfigUpdater.callbackOrder
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenGameFramework.GlobalConfigUpdater.OnPreprocessBuild*
+  commentId: Overload:OpenGameFramework.GlobalConfigUpdater.OnPreprocessBuild
+  name: OnPreprocessBuild
+  nameWithType: GlobalConfigUpdater.OnPreprocessBuild
+  fullName: OpenGameFramework.GlobalConfigUpdater.OnPreprocessBuild
+- uid: BuildReport
+  commentId: '!:BuildReport'
+  isExternal: true
+  name: BuildReport
+  nameWithType: BuildReport
+  fullName: BuildReport

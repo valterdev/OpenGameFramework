@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.API.API.Domain.INewModuleService
+  commentId: T:OpenGameFramework.API.API.Domain.INewModuleService
+  id: API.Domain.INewModuleService
+  parent: OpenGameFramework.API
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: API.Domain.INewModuleService
+  nameWithType: API.Domain.INewModuleService
+  fullName: OpenGameFramework.API.API.Domain.INewModuleService
+  type: Interface
+  source:
+    id: INewModuleService
+    path: ''
+    startLine: 3377
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: 'public interface INewModuleService : IServiceDi'
+    content.vb: >-
+      Public Interface INewModuleService
+          Inherits IServiceDi
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: OpenGameFramework.API
+  commentId: N:OpenGameFramework.API
+  name: OpenGameFramework.API
+  nameWithType: OpenGameFramework.API
+  fullName: OpenGameFramework.API

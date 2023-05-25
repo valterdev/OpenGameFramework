@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.Editor.CreateModuleWindow
+  commentId: T:OpenGameFramework.Editor.CreateModuleWindow
+  id: CreateModuleWindow
+  parent: OpenGameFramework.Editor
+  children:
+  - OpenGameFramework.Editor.CreateModuleWindow.GenerateModuleHash(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CreateModuleWindow
+  nameWithType: CreateModuleWindow
+  fullName: OpenGameFramework.Editor.CreateModuleWindow
+  type: Class
+  source:
+    id: CreateModuleWindow
+    path: ''
+    startLine: 1281
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  summary: "\nA window that allows you to create and set meta data for new ZFramework modules (Extension for the Unity editor)\n"
+  example: []
+  syntax:
+    content: 'public class CreateModuleWindow : EditorWindow'
+    content.vb: >-
+      Public Class CreateModuleWindow
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.Editor.CreateModuleWindow.GenerateModuleHash(System.String)
+  commentId: M:OpenGameFramework.Editor.CreateModuleWindow.GenerateModuleHash(System.String)
+  id: GenerateModuleHash(System.String)
+  parent: OpenGameFramework.Editor.CreateModuleWindow
+  langs:
+  - csharp
+  - vb
+  name: GenerateModuleHash(String)
+  nameWithType: CreateModuleWindow.GenerateModuleHash(String)
+  fullName: OpenGameFramework.Editor.CreateModuleWindow.GenerateModuleHash(System.String)
+  type: Method
+  source:
+    id: GenerateModuleHash
+    path: ''
+    startLine: 1432
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public static string GenerateModuleHash(string moduleName)
+    parameters:
+    - id: moduleName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GenerateModuleHash(moduleName As String) As String
+  overload: OpenGameFramework.Editor.CreateModuleWindow.GenerateModuleHash*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: OpenGameFramework.Editor
+  commentId: N:OpenGameFramework.Editor
+  name: OpenGameFramework.Editor
+  nameWithType: OpenGameFramework.Editor
+  fullName: OpenGameFramework.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenGameFramework.Editor.CreateModuleWindow.GenerateModuleHash*
+  commentId: Overload:OpenGameFramework.Editor.CreateModuleWindow.GenerateModuleHash
+  name: GenerateModuleHash
+  nameWithType: CreateModuleWindow.GenerateModuleHash
+  fullName: OpenGameFramework.Editor.CreateModuleWindow.GenerateModuleHash
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

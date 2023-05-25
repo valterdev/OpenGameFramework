@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.AssetsManager
+  commentId: T:OpenGameFramework.AssetsManager
+  id: AssetsManager
+  parent: OpenGameFramework
+  children:
+  - OpenGameFramework.AssetsManager.availableAssets
+  - OpenGameFramework.AssetsManager.Get(System.String)
+  - OpenGameFramework.AssetsManager.GetAssetByPath``1(System.String)
+  - OpenGameFramework.AssetsManager.PreInit
+  - OpenGameFramework.AssetsManager.RegisterStaticObject
+  langs:
+  - csharp
+  - vb
+  name: AssetsManager
+  nameWithType: AssetsManager
+  fullName: OpenGameFramework.AssetsManager
+  type: Class
+  source:
+    id: AssetsManager
+    path: ''
+    startLine: 2812
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: 'public class AssetsManager : SingletonCrossScene<AssetsManager>'
+    content.vb: >-
+      Public Class AssetsManager
+          Inherits SingletonCrossScene(Of AssetsManager)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.AssetsManager.availableAssets
+  commentId: F:OpenGameFramework.AssetsManager.availableAssets
+  id: availableAssets
+  parent: OpenGameFramework.AssetsManager
+  langs:
+  - csharp
+  - vb
+  name: availableAssets
+  nameWithType: AssetsManager.availableAssets
+  fullName: OpenGameFramework.AssetsManager.availableAssets
+  type: Field
+  source:
+    id: availableAssets
+    path: ''
+    startLine: 2818
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: protected Dictionary<string, AssetReference> availableAssets
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,AssetReference}
+    content.vb: Protected availableAssets As Dictionary(Of String, AssetReference)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: OpenGameFramework.AssetsManager.PreInit
+  commentId: M:OpenGameFramework.AssetsManager.PreInit
+  id: PreInit
+  parent: OpenGameFramework.AssetsManager
+  langs:
+  - csharp
+  - vb
+  name: PreInit()
+  nameWithType: AssetsManager.PreInit()
+  fullName: OpenGameFramework.AssetsManager.PreInit()
+  type: Method
+  source:
+    id: PreInit
+    path: ''
+    startLine: 2830
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  summary: "\nPre-initialization function\n"
+  example: []
+  syntax:
+    content: public void PreInit()
+    content.vb: Public Sub PreInit
+  overload: OpenGameFramework.AssetsManager.PreInit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.AssetsManager.RegisterStaticObject
+  commentId: M:OpenGameFramework.AssetsManager.RegisterStaticObject
+  id: RegisterStaticObject
+  parent: OpenGameFramework.AssetsManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterStaticObject()
+  nameWithType: AssetsManager.RegisterStaticObject()
+  fullName: OpenGameFramework.AssetsManager.RegisterStaticObject()
+  type: Method
+  source:
+    id: RegisterStaticObject
+    path: ''
+    startLine: 2840
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  summary: "\nRegisters (creates and initializes) a global static variable so that we can access the manager from any part of the code.\nThe singleton pattern (thread-safe) is implemented.\n"
+  example: []
+  syntax:
+    content: public void RegisterStaticObject()
+    content.vb: Public Sub RegisterStaticObject
+  overload: OpenGameFramework.AssetsManager.RegisterStaticObject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.AssetsManager.GetAssetByPath``1(System.String)
+  commentId: M:OpenGameFramework.AssetsManager.GetAssetByPath``1(System.String)
+  id: GetAssetByPath``1(System.String)
+  parent: OpenGameFramework.AssetsManager
+  langs:
+  - csharp
+  - vb
+  name: GetAssetByPath<T>(String)
+  nameWithType: AssetsManager.GetAssetByPath<T>(String)
+  fullName: OpenGameFramework.AssetsManager.GetAssetByPath<T>(System.String)
+  type: Method
+  source:
+    id: GetAssetByPath
+    path: ''
+    startLine: 2856
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  summary: "\nSynchronous retrieval of a file via a path (Addresable)\n"
+  example: []
+  syntax:
+    content: public T GetAssetByPath<T>(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: Addresable Path
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Function GetAssetByPath(Of T)(path As String) As T
+  overload: OpenGameFramework.AssetsManager.GetAssetByPath*
+  nameWithType.vb: AssetsManager.GetAssetByPath(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: OpenGameFramework.AssetsManager.GetAssetByPath(Of T)(System.String)
+  name.vb: GetAssetByPath(Of T)(String)
+- uid: OpenGameFramework.AssetsManager.Get(System.String)
+  commentId: M:OpenGameFramework.AssetsManager.Get(System.String)
+  id: Get(System.String)
+  parent: OpenGameFramework.AssetsManager
+  langs:
+  - csharp
+  - vb
+  name: Get(String)
+  nameWithType: AssetsManager.Get(String)
+  fullName: OpenGameFramework.AssetsManager.Get(System.String)
+  type: Method
+  source:
+    id: Get
+    path: ''
+    startLine: 2867
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  summary: "\nSynchronous retrieval of a file via a id (in config files)\n"
+  example: []
+  syntax:
+    content: public GameObject Get(string id)
+    parameters:
+    - id: id
+      type: System.String
+      description: id in config of module
+    return:
+      type: GameObject
+      description: Instantiated Gameobject on the scene
+    content.vb: Public Function Get(id As String) As GameObject
+  overload: OpenGameFramework.AssetsManager.Get*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenGameFramework
+  commentId: N:OpenGameFramework
+  name: OpenGameFramework
+  nameWithType: OpenGameFramework
+  fullName: OpenGameFramework
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{System.String,AssetReference}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,AssetReference}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, AssetReference>
+  nameWithType: Dictionary<String, AssetReference>
+  fullName: System.Collections.Generic.Dictionary<System.String, AssetReference>
+  nameWithType.vb: Dictionary(Of String, AssetReference)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, AssetReference)
+  name.vb: Dictionary(Of String, AssetReference)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AssetReference
+    name: AssetReference
+    nameWithType: AssetReference
+    fullName: AssetReference
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: AssetReference
+    name: AssetReference
+    nameWithType: AssetReference
+    fullName: AssetReference
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: OpenGameFramework.AssetsManager.PreInit*
+  commentId: Overload:OpenGameFramework.AssetsManager.PreInit
+  name: PreInit
+  nameWithType: AssetsManager.PreInit
+  fullName: OpenGameFramework.AssetsManager.PreInit
+- uid: OpenGameFramework.AssetsManager.RegisterStaticObject*
+  commentId: Overload:OpenGameFramework.AssetsManager.RegisterStaticObject
+  name: RegisterStaticObject
+  nameWithType: AssetsManager.RegisterStaticObject
+  fullName: OpenGameFramework.AssetsManager.RegisterStaticObject
+- uid: OpenGameFramework.AssetsManager.GetAssetByPath*
+  commentId: Overload:OpenGameFramework.AssetsManager.GetAssetByPath
+  name: GetAssetByPath
+  nameWithType: AssetsManager.GetAssetByPath
+  fullName: OpenGameFramework.AssetsManager.GetAssetByPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: OpenGameFramework.AssetsManager.Get*
+  commentId: Overload:OpenGameFramework.AssetsManager.Get
+  name: Get
+  nameWithType: AssetsManager.Get
+  fullName: OpenGameFramework.AssetsManager.Get
+- uid: GameObject
+  commentId: '!:GameObject'
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

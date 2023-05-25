@@ -1,0 +1,104 @@
+### YamlMime:TableOfContent
+- uid: OpenGameFramework
+  name: OpenGameFramework
+  items:
+  - uid: OpenGameFramework.APIHooksContainer
+    name: APIHooksContainer
+  - uid: OpenGameFramework.APIHooksContainer.Hook
+    name: APIHooksContainer.Hook
+  - uid: OpenGameFramework.APIHooksContainer.Hook`1
+    name: APIHooksContainer.Hook<T>
+    name.vb: APIHooksContainer.Hook(Of T)
+  - uid: OpenGameFramework.APIHooksContainer.Hook`4
+    name: APIHooksContainer.Hook<T1, T2, T3, T4>
+    name.vb: APIHooksContainer.Hook(Of T1, T2, T3, T4)
+  - uid: OpenGameFramework.APIHooksContainer.Hook`3
+    name: APIHooksContainer.Hook<T1, T2, T3>
+    name.vb: APIHooksContainer.Hook(Of T1, T2, T3)
+  - uid: OpenGameFramework.APIHooksContainer.Hook`2
+    name: APIHooksContainer.Hook<T1, T2>
+    name.vb: APIHooksContainer.Hook(Of T1, T2)
+  - uid: OpenGameFramework.App
+    name: App
+  - uid: OpenGameFramework.AssetReferenceById
+    name: AssetReferenceById
+  - uid: OpenGameFramework.AssetsManager
+    name: AssetsManager
+  - uid: OpenGameFramework.GlobalConfig
+    name: GlobalConfig
+  - uid: OpenGameFramework.GlobalConfigManager
+    name: GlobalConfigManager
+  - uid: OpenGameFramework.GlobalConfigUpdater
+    name: GlobalConfigUpdater
+  - uid: OpenGameFramework.IAppTask
+    name: IAppTask
+  - uid: OpenGameFramework.InitAppTask
+    name: InitAppTask
+  - uid: OpenGameFramework.LoadAppTask
+    name: LoadAppTask
+  - uid: OpenGameFramework.MainLoop
+    name: MainLoop
+  - uid: OpenGameFramework.MainLoop.State
+    name: MainLoop.State
+  - uid: OpenGameFramework.ModuleConfig
+    name: ModuleConfig
+  - uid: OpenGameFramework.PreInitAppTask
+    name: PreInitAppTask
+  - uid: OpenGameFramework.SaveAppTask
+    name: SaveAppTask
+- uid: OpenGameFramework.DI
+  name: OpenGameFramework.DI
+  items:
+  - uid: OpenGameFramework.DI.andreService
+    name: andreService
+  - uid: OpenGameFramework.DI.API
+    name: API
+  - uid: OpenGameFramework.DI.API.Domain
+    name: API.Domain
+  - uid: OpenGameFramework.DI.API.Domain.IandreService
+    name: API.Domain.IandreService
+  - uid: OpenGameFramework.DI.API.Domain.IMatch3BoardService
+    name: API.Domain.IMatch3BoardService
+  - uid: OpenGameFramework.DI.API.System
+    name: API.System
+  - uid: OpenGameFramework.DI.API.System.IandreService
+    name: API.System.IandreService
+  - uid: OpenGameFramework.DI.EasyDiContainer
+    name: EasyDiContainer
+  - uid: OpenGameFramework.DI.InjectAttribute
+    name: InjectAttribute
+  - uid: OpenGameFramework.DI.InjectInfo
+    name: InjectInfo
+  - uid: OpenGameFramework.DI.IServiceDi
+    name: IServiceDi
+  - uid: OpenGameFramework.DI.Match3BoardService
+    name: Match3BoardService
+  - uid: OpenGameFramework.DI.ServiceTypeInfo
+    name: ServiceTypeInfo
+- uid: OpenGameFramework.Editor
+  name: OpenGameFramework.Editor
+  items:
+  - uid: OpenGameFramework.Editor.AllModulesWindow
+    name: AllModulesWindow
+  - uid: OpenGameFramework.Editor.AllUtilsWindow
+    name: AllUtilsWindow
+  - uid: OpenGameFramework.Editor.CreateModuleWindow
+    name: CreateModuleWindow
+  - uid: OpenGameFramework.Editor.DisabledHooksInfo
+    name: DisabledHooksInfo
+  - uid: OpenGameFramework.Editor.DocumentationHelp
+    name: DocumentationHelp
+  - uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+    name: EditorConstantsForModuleSystem
+  - uid: OpenGameFramework.Editor.ModuleDisabledInfo
+    name: ModuleDisabledInfo
+  - uid: OpenGameFramework.Editor.ModuleHelpersWindow
+    name: ModuleHelpersWindow
+  - uid: OpenGameFramework.Editor.ModuleInfo
+    name: ModuleInfo
+  - uid: OpenGameFramework.Editor.ProjectInfo
+    name: ProjectInfo
+  - uid: OpenGameFramework.Editor.RightClickAddFilesToModule
+    name: RightClickAddFilesToModule
+  - uid: OpenGameFramework.Editor.UtilityInfo
+    name: UtilityInfo

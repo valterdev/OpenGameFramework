@@ -1,0 +1,39 @@
+using UnityEngine;
+using OpenGameFramework.DI;
+
+namespace OpenGameFramework.API
+{
+    [Inject(typeof(API.Domain.I{0}))]
+    public class {0} : API.Domain.I{0}
+    {
+        /// <summary>
+        /// You can Add Dependencies to this constructor.
+        /// For Example:
+        /// private readonly API.Domain.ISomeService _someService;
+        /// public {0}(ISomeService someService)
+        /// {
+        ///     _someService = someService;
+        /// }
+        /// </summary>
+        public {0}()
+        {
+
+        }
+
+        /// <summary>
+        /// Pre-initialization function
+        /// </summary>
+        public void PreInit()
+        {
+            
+        }
+
+        /// <summary>
+        /// Initialization function
+        /// </summary>
+        public void Init()
+        {
+            
+        }
+    }
+}

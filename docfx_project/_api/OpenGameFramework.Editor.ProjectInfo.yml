@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.Editor.ProjectInfo
+  commentId: T:OpenGameFramework.Editor.ProjectInfo
+  id: ProjectInfo
+  parent: OpenGameFramework.Editor
+  children:
+  - OpenGameFramework.Editor.ProjectInfo.disabled_hooks
+  - OpenGameFramework.Editor.ProjectInfo.hash
+  - OpenGameFramework.Editor.ProjectInfo.name
+  - OpenGameFramework.Editor.ProjectInfo.not_active_modules
+  - OpenGameFramework.Editor.ProjectInfo.plugins
+  - OpenGameFramework.Editor.ProjectInfo.utils
+  langs:
+  - csharp
+  - vb
+  name: ProjectInfo
+  nameWithType: ProjectInfo
+  fullName: OpenGameFramework.Editor.ProjectInfo
+  type: Class
+  source:
+    id: ProjectInfo
+    path: ''
+    startLine: 2007
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public class ProjectInfo
+    content.vb: Public Class ProjectInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.Editor.ProjectInfo.hash
+  commentId: F:OpenGameFramework.Editor.ProjectInfo.hash
+  id: hash
+  parent: OpenGameFramework.Editor.ProjectInfo
+  langs:
+  - csharp
+  - vb
+  name: hash
+  nameWithType: ProjectInfo.hash
+  fullName: OpenGameFramework.Editor.ProjectInfo.hash
+  type: Field
+  source:
+    id: hash
+    path: ''
+    startLine: 2013
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public string hash
+    return:
+      type: System.String
+    content.vb: Public hash As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.Editor.ProjectInfo.name
+  commentId: F:OpenGameFramework.Editor.ProjectInfo.name
+  id: name
+  parent: OpenGameFramework.Editor.ProjectInfo
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: ProjectInfo.name
+  fullName: OpenGameFramework.Editor.ProjectInfo.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 2014
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.Editor.ProjectInfo.plugins
+  commentId: F:OpenGameFramework.Editor.ProjectInfo.plugins
+  id: plugins
+  parent: OpenGameFramework.Editor.ProjectInfo
+  langs:
+  - csharp
+  - vb
+  name: plugins
+  nameWithType: ProjectInfo.plugins
+  fullName: OpenGameFramework.Editor.ProjectInfo.plugins
+  type: Field
+  source:
+    id: plugins
+    path: ''
+    startLine: 2016
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public List<string> plugins
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public plugins As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.Editor.ProjectInfo.utils
+  commentId: F:OpenGameFramework.Editor.ProjectInfo.utils
+  id: utils
+  parent: OpenGameFramework.Editor.ProjectInfo
+  langs:
+  - csharp
+  - vb
+  name: utils
+  nameWithType: ProjectInfo.utils
+  fullName: OpenGameFramework.Editor.ProjectInfo.utils
+  type: Field
+  source:
+    id: utils
+    path: ''
+    startLine: 2017
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public List<UtilityInfo> utils
+    return:
+      type: System.Collections.Generic.List{OpenGameFramework.Editor.UtilityInfo}
+    content.vb: Public utils As List(Of UtilityInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.Editor.ProjectInfo.not_active_modules
+  commentId: F:OpenGameFramework.Editor.ProjectInfo.not_active_modules
+  id: not_active_modules
+  parent: OpenGameFramework.Editor.ProjectInfo
+  langs:
+  - csharp
+  - vb
+  name: not_active_modules
+  nameWithType: ProjectInfo.not_active_modules
+  fullName: OpenGameFramework.Editor.ProjectInfo.not_active_modules
+  type: Field
+  source:
+    id: not_active_modules
+    path: ''
+    startLine: 2018
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public List<ModuleDisabledInfo> not_active_modules
+    return:
+      type: System.Collections.Generic.List{OpenGameFramework.Editor.ModuleDisabledInfo}
+    content.vb: Public not_active_modules As List(Of ModuleDisabledInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.Editor.ProjectInfo.disabled_hooks
+  commentId: F:OpenGameFramework.Editor.ProjectInfo.disabled_hooks
+  id: disabled_hooks
+  parent: OpenGameFramework.Editor.ProjectInfo
+  langs:
+  - csharp
+  - vb
+  name: disabled_hooks
+  nameWithType: ProjectInfo.disabled_hooks
+  fullName: OpenGameFramework.Editor.ProjectInfo.disabled_hooks
+  type: Field
+  source:
+    id: disabled_hooks
+    path: ''
+    startLine: 2019
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public List<DisabledHooksInfo> disabled_hooks
+    return:
+      type: System.Collections.Generic.List{OpenGameFramework.Editor.DisabledHooksInfo}
+    content.vb: Public disabled_hooks As List(Of DisabledHooksInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenGameFramework.Editor
+  commentId: N:OpenGameFramework.Editor
+  name: OpenGameFramework.Editor
+  nameWithType: OpenGameFramework.Editor
+  fullName: OpenGameFramework.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{OpenGameFramework.Editor.UtilityInfo}
+  commentId: T:System.Collections.Generic.List{OpenGameFramework.Editor.UtilityInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<UtilityInfo>
+  nameWithType: List<UtilityInfo>
+  fullName: System.Collections.Generic.List<OpenGameFramework.Editor.UtilityInfo>
+  nameWithType.vb: List(Of UtilityInfo)
+  fullName.vb: System.Collections.Generic.List(Of OpenGameFramework.Editor.UtilityInfo)
+  name.vb: List(Of UtilityInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenGameFramework.Editor.UtilityInfo
+    name: UtilityInfo
+    nameWithType: UtilityInfo
+    fullName: OpenGameFramework.Editor.UtilityInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenGameFramework.Editor.UtilityInfo
+    name: UtilityInfo
+    nameWithType: UtilityInfo
+    fullName: OpenGameFramework.Editor.UtilityInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{OpenGameFramework.Editor.ModuleDisabledInfo}
+  commentId: T:System.Collections.Generic.List{OpenGameFramework.Editor.ModuleDisabledInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ModuleDisabledInfo>
+  nameWithType: List<ModuleDisabledInfo>
+  fullName: System.Collections.Generic.List<OpenGameFramework.Editor.ModuleDisabledInfo>
+  nameWithType.vb: List(Of ModuleDisabledInfo)
+  fullName.vb: System.Collections.Generic.List(Of OpenGameFramework.Editor.ModuleDisabledInfo)
+  name.vb: List(Of ModuleDisabledInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenGameFramework.Editor.ModuleDisabledInfo
+    name: ModuleDisabledInfo
+    nameWithType: ModuleDisabledInfo
+    fullName: OpenGameFramework.Editor.ModuleDisabledInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenGameFramework.Editor.ModuleDisabledInfo
+    name: ModuleDisabledInfo
+    nameWithType: ModuleDisabledInfo
+    fullName: OpenGameFramework.Editor.ModuleDisabledInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{OpenGameFramework.Editor.DisabledHooksInfo}
+  commentId: T:System.Collections.Generic.List{OpenGameFramework.Editor.DisabledHooksInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<DisabledHooksInfo>
+  nameWithType: List<DisabledHooksInfo>
+  fullName: System.Collections.Generic.List<OpenGameFramework.Editor.DisabledHooksInfo>
+  nameWithType.vb: List(Of DisabledHooksInfo)
+  fullName.vb: System.Collections.Generic.List(Of OpenGameFramework.Editor.DisabledHooksInfo)
+  name.vb: List(Of DisabledHooksInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenGameFramework.Editor.DisabledHooksInfo
+    name: DisabledHooksInfo
+    nameWithType: DisabledHooksInfo
+    fullName: OpenGameFramework.Editor.DisabledHooksInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenGameFramework.Editor.DisabledHooksInfo
+    name: DisabledHooksInfo
+    nameWithType: DisabledHooksInfo
+    fullName: OpenGameFramework.Editor.DisabledHooksInfo
+  - name: )
+    nameWithType: )
+    fullName: )

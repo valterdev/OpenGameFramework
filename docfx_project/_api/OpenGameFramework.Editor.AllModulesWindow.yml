@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.Editor.AllModulesWindow
+  commentId: T:OpenGameFramework.Editor.AllModulesWindow
+  id: AllModulesWindow
+  parent: OpenGameFramework.Editor
+  children:
+  - OpenGameFramework.Editor.AllModulesWindow.UpdatePreInit
+  langs:
+  - csharp
+  - vb
+  name: AllModulesWindow
+  nameWithType: AllModulesWindow
+  fullName: OpenGameFramework.Editor.AllModulesWindow
+  type: Class
+  source:
+    id: AllModulesWindow
+    path: ''
+    startLine: 387
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  summary: "\nCollects and displays information about all modules present in the system.\n"
+  example: []
+  syntax:
+    content: 'public class AllModulesWindow : EditorWindow'
+    content.vb: >-
+      Public Class AllModulesWindow
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.Editor.AllModulesWindow.UpdatePreInit
+  commentId: M:OpenGameFramework.Editor.AllModulesWindow.UpdatePreInit
+  id: UpdatePreInit
+  parent: OpenGameFramework.Editor.AllModulesWindow
+  langs:
+  - csharp
+  - vb
+  name: UpdatePreInit()
+  nameWithType: AllModulesWindow.UpdatePreInit()
+  fullName: OpenGameFramework.Editor.AllModulesWindow.UpdatePreInit()
+  type: Method
+  source:
+    id: UpdatePreInit
+    path: ''
+    startLine: 460
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public static void UpdatePreInit()
+    content.vb: Public Shared Sub UpdatePreInit
+  overload: OpenGameFramework.Editor.AllModulesWindow.UpdatePreInit*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: OpenGameFramework.Editor
+  commentId: N:OpenGameFramework.Editor
+  name: OpenGameFramework.Editor
+  nameWithType: OpenGameFramework.Editor
+  fullName: OpenGameFramework.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenGameFramework.Editor.AllModulesWindow.UpdatePreInit*
+  commentId: Overload:OpenGameFramework.Editor.AllModulesWindow.UpdatePreInit
+  name: UpdatePreInit
+  nameWithType: AllModulesWindow.UpdatePreInit
+  fullName: OpenGameFramework.Editor.AllModulesWindow.UpdatePreInit

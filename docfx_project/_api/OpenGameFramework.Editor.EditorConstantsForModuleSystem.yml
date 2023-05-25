@@ -1,0 +1,2656 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  commentId: T:OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  id: EditorConstantsForModuleSystem
+  parent: OpenGameFramework.Editor
+  children:
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Alpha
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Assets
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Beta
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Description
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Mechanics_Features
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Meta
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Other
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Tools
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_UI
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Exception
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.FileWasCompressed
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AddFilesToModulePageTitle
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AllModulesPageTitle
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AllUtilsPageTitle
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Author
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_CreateModuleTitle
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_CriticalForWork
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Email
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_EnterModuleName
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_EnterModuleVersion
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ExportModuleWindowTitle
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_GenerateHash
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_GenerateModuleHash
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_HashForModules
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ImportModuleWindowTitle
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ModuleHelpersTitle
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ModuleWithNameExist
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_No
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Path
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModule
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModuleState
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModuleType
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Site
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_State
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SuccessAddFiles
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Type
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Version
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Yes
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Manager
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorAllModule
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorAllUtilities
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorCreateModule
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorUpdatePreInit
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Migrated
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.ModuleDisableFlagFileName
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.ModuleInfoFileName
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.NotCompleted
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAPIDomainInterfaceTemplate
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAPISystemInterfaceTemplate
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAppModules
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToDisabledModules
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToHooksScriptTemplate
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAddFilesToModulePage
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAllModulesPage
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAllUtilsPage
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForCreateModulePage
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForModuleDetailsPage
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForModuleItem
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForUtilityItem
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToPreInitScript
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToPreInitTemplate
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToProjectManifest
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToServiceScriptTemplate
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToSingletonManagerScriptTemplate
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToSingletonPartsScriptTemplate
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToStoreScriptTemplate
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToZFrameworkServiceFolder
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.RootPath
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Service
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.Stable
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.System
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Core
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Data
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Network
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Other
+  - OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Tools
+  langs:
+  - csharp
+  - vb
+  name: EditorConstantsForModuleSystem
+  nameWithType: EditorConstantsForModuleSystem
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  type: Class
+  source:
+    id: EditorConstantsForModuleSystem
+    path: ''
+    startLine: 1729
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public static class EditorConstantsForModuleSystem
+    content.vb: Public Module EditorConstantsForModuleSystem
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.ModuleDisableFlagFileName
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.ModuleDisableFlagFileName
+  id: ModuleDisableFlagFileName
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: ModuleDisableFlagFileName
+  nameWithType: EditorConstantsForModuleSystem.ModuleDisableFlagFileName
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.ModuleDisableFlagFileName
+  type: Field
+  source:
+    id: ModuleDisableFlagFileName
+    path: ''
+    startLine: 1731
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string ModuleDisableFlagFileName = "module_disabled"
+    return:
+      type: System.String
+    content.vb: Public Const ModuleDisableFlagFileName As String = "module_disabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.ModuleInfoFileName
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.ModuleInfoFileName
+  id: ModuleInfoFileName
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: ModuleInfoFileName
+  nameWithType: EditorConstantsForModuleSystem.ModuleInfoFileName
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.ModuleInfoFileName
+  type: Field
+  source:
+    id: ModuleInfoFileName
+    path: ''
+    startLine: 1732
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string ModuleInfoFileName = "module-info.json"
+    return:
+      type: System.String
+    content.vb: Public Const ModuleInfoFileName As String = "module-info.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Alpha
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Alpha
+  id: Alpha
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Alpha
+  nameWithType: EditorConstantsForModuleSystem.Alpha
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Alpha
+  type: Field
+  source:
+    id: Alpha
+    path: ''
+    startLine: 1734
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Alpha = "Alpha"
+    return:
+      type: System.String
+    content.vb: Public Const Alpha As String = "Alpha"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Beta
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Beta
+  id: Beta
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Beta
+  nameWithType: EditorConstantsForModuleSystem.Beta
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Beta
+  type: Field
+  source:
+    id: Beta
+    path: ''
+    startLine: 1735
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Beta = "Beta"
+    return:
+      type: System.String
+    content.vb: Public Const Beta As String = "Beta"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Stable
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Stable
+  id: Stable
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Stable
+  nameWithType: EditorConstantsForModuleSystem.Stable
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Stable
+  type: Field
+  source:
+    id: Stable
+    path: ''
+    startLine: 1736
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Stable = "Stable"
+    return:
+      type: System.String
+    content.vb: Public Const Stable As String = "Stable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Migrated
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Migrated
+  id: Migrated
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Migrated
+  nameWithType: EditorConstantsForModuleSystem.Migrated
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Migrated
+  type: Field
+  source:
+    id: Migrated
+    path: ''
+    startLine: 1737
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Migrated = "Migrated"
+    return:
+      type: System.String
+    content.vb: Public Const Migrated As String = "Migrated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.NotCompleted
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.NotCompleted
+  id: NotCompleted
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: NotCompleted
+  nameWithType: EditorConstantsForModuleSystem.NotCompleted
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.NotCompleted
+  type: Field
+  source:
+    id: NotCompleted
+    path: ''
+    startLine: 1738
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string NotCompleted = "NotCompleted"
+    return:
+      type: System.String
+    content.vb: Public Const NotCompleted As String = "NotCompleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.FileWasCompressed
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.FileWasCompressed
+  id: FileWasCompressed
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: FileWasCompressed
+  nameWithType: EditorConstantsForModuleSystem.FileWasCompressed
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.FileWasCompressed
+  type: Field
+  source:
+    id: FileWasCompressed
+    path: ''
+    startLine: 1740
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string FileWasCompressed = "Files successfully compressed"
+    return:
+      type: System.String
+    content.vb: Public Const FileWasCompressed As String = "Files successfully compressed"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Exception
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Exception
+  id: Exception
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Exception
+  nameWithType: EditorConstantsForModuleSystem.Exception
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Exception
+  type: Field
+  source:
+    id: Exception
+    path: ''
+    startLine: 1741
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Exception = "Exception during processing {0}"
+    return:
+      type: System.String
+    content.vb: Public Const Exception As String = "Exception during processing {0}"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Description
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Description
+  id: Description
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: EditorConstantsForModuleSystem.Description
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Description
+  type: Field
+  source:
+    id: Description
+    path: ''
+    startLine: 1742
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Description = "Description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "Description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Assets
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Assets
+  id: Assets
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Assets
+  nameWithType: EditorConstantsForModuleSystem.Assets
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Assets
+  type: Field
+  source:
+    id: Assets
+    path: ''
+    startLine: 1744
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Assets = "Assets"
+    return:
+      type: System.String
+    content.vb: Public Const Assets As String = "Assets"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Manager
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Manager
+  id: Manager
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Manager
+  nameWithType: EditorConstantsForModuleSystem.Manager
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Manager
+  type: Field
+  source:
+    id: Manager
+    path: ''
+    startLine: 1745
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Manager = "Manager"
+    return:
+      type: System.String
+    content.vb: Public Const Manager As String = "Manager"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Service
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Service
+  id: Service
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Service
+  nameWithType: EditorConstantsForModuleSystem.Service
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Service
+  type: Field
+  source:
+    id: Service
+    path: ''
+    startLine: 1746
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Service = "Service"
+    return:
+      type: System.String
+    content.vb: Public Const Service As String = "Service"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.System
+  id: System
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: EditorConstantsForModuleSystem.System
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System
+  type: Field
+  source:
+    id: System
+    path: ''
+    startLine: 1748
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string System = "System"
+    return:
+      type: System.String
+    content.vb: Public Const System As String = "System"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain
+  id: Domain
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: EditorConstantsForModuleSystem.Domain
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain
+  type: Field
+  source:
+    id: Domain
+    path: ''
+    startLine: 1749
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Domain = "Domain"
+    return:
+      type: System.String
+    content.vb: Public Const Domain As String = "Domain"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Core
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Core
+  id: System_Core
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: System_Core
+  nameWithType: EditorConstantsForModuleSystem.System_Core
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Core
+  type: Field
+  source:
+    id: System_Core
+    path: ''
+    startLine: 1751
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string System_Core = "System/Core"
+    return:
+      type: System.String
+    content.vb: Public Const System_Core As String = "System/Core"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Data
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Data
+  id: System_Data
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: System_Data
+  nameWithType: EditorConstantsForModuleSystem.System_Data
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Data
+  type: Field
+  source:
+    id: System_Data
+    path: ''
+    startLine: 1752
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string System_Data = "System/Data"
+    return:
+      type: System.String
+    content.vb: Public Const System_Data As String = "System/Data"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Network
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Network
+  id: System_Network
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: System_Network
+  nameWithType: EditorConstantsForModuleSystem.System_Network
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Network
+  type: Field
+  source:
+    id: System_Network
+    path: ''
+    startLine: 1753
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string System_Network = "System/Network"
+    return:
+      type: System.String
+    content.vb: Public Const System_Network As String = "System/Network"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Other
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Other
+  id: System_Other
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: System_Other
+  nameWithType: EditorConstantsForModuleSystem.System_Other
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Other
+  type: Field
+  source:
+    id: System_Other
+    path: ''
+    startLine: 1754
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string System_Other = "System/Other"
+    return:
+      type: System.String
+    content.vb: Public Const System_Other As String = "System/Other"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Tools
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Tools
+  id: System_Tools
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: System_Tools
+  nameWithType: EditorConstantsForModuleSystem.System_Tools
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.System_Tools
+  type: Field
+  source:
+    id: System_Tools
+    path: ''
+    startLine: 1755
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string System_Tools = "System/Tools"
+    return:
+      type: System.String
+    content.vb: Public Const System_Tools As String = "System/Tools"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Mechanics_Features
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Mechanics_Features
+  id: Domain_Mechanics_Features
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Domain_Mechanics_Features
+  nameWithType: EditorConstantsForModuleSystem.Domain_Mechanics_Features
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Mechanics_Features
+  type: Field
+  source:
+    id: Domain_Mechanics_Features
+    path: ''
+    startLine: 1757
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Domain_Mechanics_Features = "Domain/Mechanics_Features"
+    return:
+      type: System.String
+    content.vb: Public Const Domain_Mechanics_Features As String = "Domain/Mechanics_Features"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Meta
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Meta
+  id: Domain_Meta
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Domain_Meta
+  nameWithType: EditorConstantsForModuleSystem.Domain_Meta
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Meta
+  type: Field
+  source:
+    id: Domain_Meta
+    path: ''
+    startLine: 1758
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Domain_Meta = "Domain/Meta"
+    return:
+      type: System.String
+    content.vb: Public Const Domain_Meta As String = "Domain/Meta"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_UI
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_UI
+  id: Domain_UI
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Domain_UI
+  nameWithType: EditorConstantsForModuleSystem.Domain_UI
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_UI
+  type: Field
+  source:
+    id: Domain_UI
+    path: ''
+    startLine: 1759
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Domain_UI = "Domain/UI"
+    return:
+      type: System.String
+    content.vb: Public Const Domain_UI As String = "Domain/UI"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Other
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Other
+  id: Domain_Other
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Domain_Other
+  nameWithType: EditorConstantsForModuleSystem.Domain_Other
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Other
+  type: Field
+  source:
+    id: Domain_Other
+    path: ''
+    startLine: 1760
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Domain_Other = "Domain/Other"
+    return:
+      type: System.String
+    content.vb: Public Const Domain_Other As String = "Domain/Other"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Tools
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Tools
+  id: Domain_Tools
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: Domain_Tools
+  nameWithType: EditorConstantsForModuleSystem.Domain_Tools
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.Domain_Tools
+  type: Field
+  source:
+    id: Domain_Tools
+    path: ''
+    startLine: 1761
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string Domain_Tools = "Domain/Tools"
+    return:
+      type: System.String
+    content.vb: Public Const Domain_Tools As String = "Domain/Tools"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorAllModule
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorAllModule
+  id: MenuModuleEditorAllModule
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: MenuModuleEditorAllModule
+  nameWithType: EditorConstantsForModuleSystem.MenuModuleEditorAllModule
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorAllModule
+  type: Field
+  source:
+    id: MenuModuleEditorAllModule
+    path: ''
+    startLine: 1763
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string MenuModuleEditorAllModule = "Window/OpenGameFramework/Module Editor/All Modules"
+    return:
+      type: System.String
+    content.vb: Public Const MenuModuleEditorAllModule As String = "Window/OpenGameFramework/Module Editor/All Modules"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorUpdatePreInit
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorUpdatePreInit
+  id: MenuModuleEditorUpdatePreInit
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: MenuModuleEditorUpdatePreInit
+  nameWithType: EditorConstantsForModuleSystem.MenuModuleEditorUpdatePreInit
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorUpdatePreInit
+  type: Field
+  source:
+    id: MenuModuleEditorUpdatePreInit
+    path: ''
+    startLine: 1765
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string MenuModuleEditorUpdatePreInit = "Window/OpenGameFramework/Module Editor/Update PreInit script"
+    return:
+      type: System.String
+    content.vb: Public Const MenuModuleEditorUpdatePreInit As String = "Window/OpenGameFramework/Module Editor/Update PreInit script"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorAllUtilities
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorAllUtilities
+  id: MenuModuleEditorAllUtilities
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: MenuModuleEditorAllUtilities
+  nameWithType: EditorConstantsForModuleSystem.MenuModuleEditorAllUtilities
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorAllUtilities
+  type: Field
+  source:
+    id: MenuModuleEditorAllUtilities
+    path: ''
+    startLine: 1768
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string MenuModuleEditorAllUtilities = "Window/OpenGameFramework/Module Editor/All Utilities"
+    return:
+      type: System.String
+    content.vb: Public Const MenuModuleEditorAllUtilities As String = "Window/OpenGameFramework/Module Editor/All Utilities"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorCreateModule
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorCreateModule
+  id: MenuModuleEditorCreateModule
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: MenuModuleEditorCreateModule
+  nameWithType: EditorConstantsForModuleSystem.MenuModuleEditorCreateModule
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.MenuModuleEditorCreateModule
+  type: Field
+  source:
+    id: MenuModuleEditorCreateModule
+    path: ''
+    startLine: 1769
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string MenuModuleEditorCreateModule = "Window/OpenGameFramework/Module Editor/Create Module"
+    return:
+      type: System.String
+    content.vb: Public Const MenuModuleEditorCreateModule As String = "Window/OpenGameFramework/Module Editor/Create Module"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AllModulesPageTitle
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AllModulesPageTitle
+  id: L_AllModulesPageTitle
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_AllModulesPageTitle
+  nameWithType: EditorConstantsForModuleSystem.L_AllModulesPageTitle
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AllModulesPageTitle
+  type: Field
+  source:
+    id: L_AllModulesPageTitle
+    path: ''
+    startLine: 1774
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_AllModulesPageTitle = "All modules"
+    return:
+      type: System.String
+    content.vb: Public Const L_AllModulesPageTitle As String = "All modules"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ImportModuleWindowTitle
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ImportModuleWindowTitle
+  id: L_ImportModuleWindowTitle
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_ImportModuleWindowTitle
+  nameWithType: EditorConstantsForModuleSystem.L_ImportModuleWindowTitle
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ImportModuleWindowTitle
+  type: Field
+  source:
+    id: L_ImportModuleWindowTitle
+    path: ''
+    startLine: 1775
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_ImportModuleWindowTitle = "Select module's package"
+    return:
+      type: System.String
+    content.vb: Public Const L_ImportModuleWindowTitle As String = "Select module's package"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ExportModuleWindowTitle
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ExportModuleWindowTitle
+  id: L_ExportModuleWindowTitle
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_ExportModuleWindowTitle
+  nameWithType: EditorConstantsForModuleSystem.L_ExportModuleWindowTitle
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ExportModuleWindowTitle
+  type: Field
+  source:
+    id: L_ExportModuleWindowTitle
+    path: ''
+    startLine: 1776
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_ExportModuleWindowTitle = "Select folder to export"
+    return:
+      type: System.String
+    content.vb: Public Const L_ExportModuleWindowTitle As String = "Select folder to export"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_CriticalForWork
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_CriticalForWork
+  id: L_CriticalForWork
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_CriticalForWork
+  nameWithType: EditorConstantsForModuleSystem.L_CriticalForWork
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_CriticalForWork
+  type: Field
+  source:
+    id: L_CriticalForWork
+    path: ''
+    startLine: 1778
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: 'public const string L_CriticalForWork = "Criticality for system operation: "'
+    return:
+      type: System.String
+    content.vb: 'Public Const L_CriticalForWork As String = "Criticality for system operation: "'
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Yes
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Yes
+  id: L_Yes
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_Yes
+  nameWithType: EditorConstantsForModuleSystem.L_Yes
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Yes
+  type: Field
+  source:
+    id: L_Yes
+    path: ''
+    startLine: 1779
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_Yes = "<color=#ff0000><b>Yes<b></color>"
+    return:
+      type: System.String
+    content.vb: Public Const L_Yes As String = "<color=#ff0000><b>Yes<b></color>"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_No
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_No
+  id: L_No
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_No
+  nameWithType: EditorConstantsForModuleSystem.L_No
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_No
+  type: Field
+  source:
+    id: L_No
+    path: ''
+    startLine: 1780
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_No = "<color=#00ff00>No</color>"
+    return:
+      type: System.String
+    content.vb: Public Const L_No As String = "<color=#00ff00>No</color>"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Path
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Path
+  id: L_Path
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_Path
+  nameWithType: EditorConstantsForModuleSystem.L_Path
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Path
+  type: Field
+  source:
+    id: L_Path
+    path: ''
+    startLine: 1782
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_Path = "<b>Path:</b> "
+    return:
+      type: System.String
+    content.vb: Public Const L_Path As String = "<b>Path:</b> "
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Version
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Version
+  id: L_Version
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_Version
+  nameWithType: EditorConstantsForModuleSystem.L_Version
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Version
+  type: Field
+  source:
+    id: L_Version
+    path: ''
+    startLine: 1783
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_Version = "<b>Version:</b> "
+    return:
+      type: System.String
+    content.vb: Public Const L_Version As String = "<b>Version:</b> "
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Type
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Type
+  id: L_Type
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_Type
+  nameWithType: EditorConstantsForModuleSystem.L_Type
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Type
+  type: Field
+  source:
+    id: L_Type
+    path: ''
+    startLine: 1784
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_Type = "<b>Type:</b> "
+    return:
+      type: System.String
+    content.vb: Public Const L_Type As String = "<b>Type:</b> "
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_State
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_State
+  id: L_State
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_State
+  nameWithType: EditorConstantsForModuleSystem.L_State
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_State
+  type: Field
+  source:
+    id: L_State
+    path: ''
+    startLine: 1785
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_State = "<b>State:</b> "
+    return:
+      type: System.String
+    content.vb: Public Const L_State As String = "<b>State:</b> "
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Author
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Author
+  id: L_Author
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_Author
+  nameWithType: EditorConstantsForModuleSystem.L_Author
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Author
+  type: Field
+  source:
+    id: L_Author
+    path: ''
+    startLine: 1786
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_Author = "<b>Author:</b> "
+    return:
+      type: System.String
+    content.vb: Public Const L_Author As String = "<b>Author:</b> "
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Email
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Email
+  id: L_Email
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_Email
+  nameWithType: EditorConstantsForModuleSystem.L_Email
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Email
+  type: Field
+  source:
+    id: L_Email
+    path: ''
+    startLine: 1788
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: 'public const string L_Email = " Email: "'
+    return:
+      type: System.String
+    content.vb: 'Public Const L_Email As String = " Email: "'
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Site
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Site
+  id: L_Site
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_Site
+  nameWithType: EditorConstantsForModuleSystem.L_Site
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_Site
+  type: Field
+  source:
+    id: L_Site
+    path: ''
+    startLine: 1789
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: 'public const string L_Site = " Site: "'
+    return:
+      type: System.String
+    content.vb: 'Public Const L_Site As String = " Site: "'
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AllUtilsPageTitle
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AllUtilsPageTitle
+  id: L_AllUtilsPageTitle
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_AllUtilsPageTitle
+  nameWithType: EditorConstantsForModuleSystem.L_AllUtilsPageTitle
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AllUtilsPageTitle
+  type: Field
+  source:
+    id: L_AllUtilsPageTitle
+    path: ''
+    startLine: 1792
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_AllUtilsPageTitle = "All utilities"
+    return:
+      type: System.String
+    content.vb: Public Const L_AllUtilsPageTitle As String = "All utilities"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_CreateModuleTitle
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_CreateModuleTitle
+  id: L_CreateModuleTitle
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_CreateModuleTitle
+  nameWithType: EditorConstantsForModuleSystem.L_CreateModuleTitle
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_CreateModuleTitle
+  type: Field
+  source:
+    id: L_CreateModuleTitle
+    path: ''
+    startLine: 1795
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_CreateModuleTitle = "Create module"
+    return:
+      type: System.String
+    content.vb: Public Const L_CreateModuleTitle As String = "Create module"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_EnterModuleName
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_EnterModuleName
+  id: L_EnterModuleName
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_EnterModuleName
+  nameWithType: EditorConstantsForModuleSystem.L_EnterModuleName
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_EnterModuleName
+  type: Field
+  source:
+    id: L_EnterModuleName
+    path: ''
+    startLine: 1797
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_EnterModuleName = "Enter module name"
+    return:
+      type: System.String
+    content.vb: Public Const L_EnterModuleName As String = "Enter module name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_EnterModuleVersion
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_EnterModuleVersion
+  id: L_EnterModuleVersion
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_EnterModuleVersion
+  nameWithType: EditorConstantsForModuleSystem.L_EnterModuleVersion
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_EnterModuleVersion
+  type: Field
+  source:
+    id: L_EnterModuleVersion
+    path: ''
+    startLine: 1798
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_EnterModuleVersion = "Enter module version"
+    return:
+      type: System.String
+    content.vb: Public Const L_EnterModuleVersion As String = "Enter module version"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModuleType
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModuleType
+  id: L_SelectModuleType
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_SelectModuleType
+  nameWithType: EditorConstantsForModuleSystem.L_SelectModuleType
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModuleType
+  type: Field
+  source:
+    id: L_SelectModuleType
+    path: ''
+    startLine: 1799
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_SelectModuleType = "Select module type"
+    return:
+      type: System.String
+    content.vb: Public Const L_SelectModuleType As String = "Select module type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModuleState
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModuleState
+  id: L_SelectModuleState
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_SelectModuleState
+  nameWithType: EditorConstantsForModuleSystem.L_SelectModuleState
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModuleState
+  type: Field
+  source:
+    id: L_SelectModuleState
+    path: ''
+    startLine: 1800
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_SelectModuleState = "Select module state"
+    return:
+      type: System.String
+    content.vb: Public Const L_SelectModuleState As String = "Select module state"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ModuleWithNameExist
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ModuleWithNameExist
+  id: L_ModuleWithNameExist
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_ModuleWithNameExist
+  nameWithType: EditorConstantsForModuleSystem.L_ModuleWithNameExist
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ModuleWithNameExist
+  type: Field
+  source:
+    id: L_ModuleWithNameExist
+    path: ''
+    startLine: 1802
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_ModuleWithNameExist = "Module with this name is exist."
+    return:
+      type: System.String
+    content.vb: Public Const L_ModuleWithNameExist As String = "Module with this name is exist."
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_HashForModules
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_HashForModules
+  id: L_HashForModules
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_HashForModules
+  nameWithType: EditorConstantsForModuleSystem.L_HashForModules
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_HashForModules
+  type: Field
+  source:
+    id: L_HashForModules
+    path: ''
+    startLine: 1803
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_HashForModules = "Hash for module with name"
+    return:
+      type: System.String
+    content.vb: Public Const L_HashForModules As String = "Hash for module with name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_GenerateHash
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_GenerateHash
+  id: L_GenerateHash
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_GenerateHash
+  nameWithType: EditorConstantsForModuleSystem.L_GenerateHash
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_GenerateHash
+  type: Field
+  source:
+    id: L_GenerateHash
+    path: ''
+    startLine: 1804
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_GenerateHash = "Generate hash"
+    return:
+      type: System.String
+    content.vb: Public Const L_GenerateHash As String = "Generate hash"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_GenerateModuleHash
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_GenerateModuleHash
+  id: L_GenerateModuleHash
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_GenerateModuleHash
+  nameWithType: EditorConstantsForModuleSystem.L_GenerateModuleHash
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_GenerateModuleHash
+  type: Field
+  source:
+    id: L_GenerateModuleHash
+    path: ''
+    startLine: 1805
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_GenerateModuleHash = "Generate module hash"
+    return:
+      type: System.String
+    content.vb: Public Const L_GenerateModuleHash As String = "Generate module hash"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ModuleHelpersTitle
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ModuleHelpersTitle
+  id: L_ModuleHelpersTitle
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_ModuleHelpersTitle
+  nameWithType: EditorConstantsForModuleSystem.L_ModuleHelpersTitle
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_ModuleHelpersTitle
+  type: Field
+  source:
+    id: L_ModuleHelpersTitle
+    path: ''
+    startLine: 1808
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_ModuleHelpersTitle = "Module Helpers"
+    return:
+      type: System.String
+    content.vb: Public Const L_ModuleHelpersTitle As String = "Module Helpers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AddFilesToModulePageTitle
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AddFilesToModulePageTitle
+  id: L_AddFilesToModulePageTitle
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_AddFilesToModulePageTitle
+  nameWithType: EditorConstantsForModuleSystem.L_AddFilesToModulePageTitle
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_AddFilesToModulePageTitle
+  type: Field
+  source:
+    id: L_AddFilesToModulePageTitle
+    path: ''
+    startLine: 1811
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_AddFilesToModulePageTitle = "Add files to module"
+    return:
+      type: System.String
+    content.vb: Public Const L_AddFilesToModulePageTitle As String = "Add files to module"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModule
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModule
+  id: L_SelectModule
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_SelectModule
+  nameWithType: EditorConstantsForModuleSystem.L_SelectModule
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SelectModule
+  type: Field
+  source:
+    id: L_SelectModule
+    path: ''
+    startLine: 1812
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_SelectModule = "Select module"
+    return:
+      type: System.String
+    content.vb: Public Const L_SelectModule As String = "Select module"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SuccessAddFiles
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SuccessAddFiles
+  id: L_SuccessAddFiles
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: L_SuccessAddFiles
+  nameWithType: EditorConstantsForModuleSystem.L_SuccessAddFiles
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.L_SuccessAddFiles
+  type: Field
+  source:
+    id: L_SuccessAddFiles
+    path: ''
+    startLine: 1813
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string L_SuccessAddFiles = "Successfull add files!"
+    return:
+      type: System.String
+    content.vb: Public Const L_SuccessAddFiles As String = "Successfull add files!"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.RootPath
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.RootPath
+  id: RootPath
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: RootPath
+  nameWithType: EditorConstantsForModuleSystem.RootPath
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.RootPath
+  type: Field
+  source:
+    id: RootPath
+    path: ''
+    startLine: 1819
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string RootPath = "App/"
+    return:
+      type: System.String
+    content.vb: Public Const RootPath As String = "App/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToProjectManifest
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToProjectManifest
+  id: PathToProjectManifest
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToProjectManifest
+  nameWithType: EditorConstantsForModuleSystem.PathToProjectManifest
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToProjectManifest
+  type: Field
+  source:
+    id: PathToProjectManifest
+    path: ''
+    startLine: 1820
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToProjectManifest = "App/OpenProjectManifest.json"
+    return:
+      type: System.String
+    content.vb: Public Const PathToProjectManifest As String = "App/OpenProjectManifest.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAllModulesPage
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAllModulesPage
+  id: PathToLayoutForAllModulesPage
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToLayoutForAllModulesPage
+  nameWithType: EditorConstantsForModuleSystem.PathToLayoutForAllModulesPage
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAllModulesPage
+  type: Field
+  source:
+    id: PathToLayoutForAllModulesPage
+    path: ''
+    startLine: 1822
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToLayoutForAllModulesPage = "Assets/App/Modules/System/Core/ModulesSystem/view/all_modules.uxml"
+    return:
+      type: System.String
+    content.vb: Public Const PathToLayoutForAllModulesPage As String = "Assets/App/Modules/System/Core/ModulesSystem/view/all_modules.uxml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForModuleDetailsPage
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForModuleDetailsPage
+  id: PathToLayoutForModuleDetailsPage
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToLayoutForModuleDetailsPage
+  nameWithType: EditorConstantsForModuleSystem.PathToLayoutForModuleDetailsPage
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForModuleDetailsPage
+  type: Field
+  source:
+    id: PathToLayoutForModuleDetailsPage
+    path: ''
+    startLine: 1825
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToLayoutForModuleDetailsPage = "Assets/App/Modules/System/Core/ModulesSystem/view/module_details.uxml"
+    return:
+      type: System.String
+    content.vb: Public Const PathToLayoutForModuleDetailsPage As String = "Assets/App/Modules/System/Core/ModulesSystem/view/module_details.uxml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForModuleItem
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForModuleItem
+  id: PathToLayoutForModuleItem
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToLayoutForModuleItem
+  nameWithType: EditorConstantsForModuleSystem.PathToLayoutForModuleItem
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForModuleItem
+  type: Field
+  source:
+    id: PathToLayoutForModuleItem
+    path: ''
+    startLine: 1828
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToLayoutForModuleItem = "Assets/App/Modules/System/Core/ModulesSystem/view/module_item.uxml"
+    return:
+      type: System.String
+    content.vb: Public Const PathToLayoutForModuleItem As String = "Assets/App/Modules/System/Core/ModulesSystem/view/module_item.uxml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToPreInitScript
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToPreInitScript
+  id: PathToPreInitScript
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToPreInitScript
+  nameWithType: EditorConstantsForModuleSystem.PathToPreInitScript
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToPreInitScript
+  type: Field
+  source:
+    id: PathToPreInitScript
+    path: ''
+    startLine: 1831
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToPreInitScript = "App/Modules/System/00_InitializationCycle/Z0_PreInit.cs"
+    return:
+      type: System.String
+    content.vb: Public Const PathToPreInitScript As String = "App/Modules/System/00_InitializationCycle/Z0_PreInit.cs"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToPreInitTemplate
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToPreInitTemplate
+  id: PathToPreInitTemplate
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToPreInitTemplate
+  nameWithType: EditorConstantsForModuleSystem.PathToPreInitTemplate
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToPreInitTemplate
+  type: Field
+  source:
+    id: PathToPreInitTemplate
+    path: ''
+    startLine: 1832
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToPreInitTemplate = "App/Modules/System/Core/ModulesSystem/templates/PreInit.cs.tmpl"
+    return:
+      type: System.String
+    content.vb: Public Const PathToPreInitTemplate As String = "App/Modules/System/Core/ModulesSystem/templates/PreInit.cs.tmpl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAppModules
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAppModules
+  id: PathToAppModules
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToAppModules
+  nameWithType: EditorConstantsForModuleSystem.PathToAppModules
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAppModules
+  type: Field
+  source:
+    id: PathToAppModules
+    path: ''
+    startLine: 1834
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToAppModules = "App/Modules/"
+    return:
+      type: System.String
+    content.vb: Public Const PathToAppModules As String = "App/Modules/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToZFrameworkServiceFolder
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToZFrameworkServiceFolder
+  id: PathToZFrameworkServiceFolder
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToZFrameworkServiceFolder
+  nameWithType: EditorConstantsForModuleSystem.PathToZFrameworkServiceFolder
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToZFrameworkServiceFolder
+  type: Field
+  source:
+    id: PathToZFrameworkServiceFolder
+    path: ''
+    startLine: 1835
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToZFrameworkServiceFolder = "../ZFramework"
+    return:
+      type: System.String
+    content.vb: Public Const PathToZFrameworkServiceFolder As String = "../ZFramework"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToDisabledModules
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToDisabledModules
+  id: PathToDisabledModules
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToDisabledModules
+  nameWithType: EditorConstantsForModuleSystem.PathToDisabledModules
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToDisabledModules
+  type: Field
+  source:
+    id: PathToDisabledModules
+    path: ''
+    startLine: 1836
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToDisabledModules = "../ZFramework/DisabledModules/"
+    return:
+      type: System.String
+    content.vb: Public Const PathToDisabledModules As String = "../ZFramework/DisabledModules/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAllUtilsPage
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAllUtilsPage
+  id: PathToLayoutForAllUtilsPage
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToLayoutForAllUtilsPage
+  nameWithType: EditorConstantsForModuleSystem.PathToLayoutForAllUtilsPage
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAllUtilsPage
+  type: Field
+  source:
+    id: PathToLayoutForAllUtilsPage
+    path: ''
+    startLine: 1839
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToLayoutForAllUtilsPage = "Assets/App/Modules/System/Core/ModulesSystem/view/all_utils.uxml"
+    return:
+      type: System.String
+    content.vb: Public Const PathToLayoutForAllUtilsPage As String = "Assets/App/Modules/System/Core/ModulesSystem/view/all_utils.uxml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForUtilityItem
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForUtilityItem
+  id: PathToLayoutForUtilityItem
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToLayoutForUtilityItem
+  nameWithType: EditorConstantsForModuleSystem.PathToLayoutForUtilityItem
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForUtilityItem
+  type: Field
+  source:
+    id: PathToLayoutForUtilityItem
+    path: ''
+    startLine: 1842
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToLayoutForUtilityItem = "Assets/App/Modules/System/Core/ModulesSystem/view/utility_item.uxml"
+    return:
+      type: System.String
+    content.vb: Public Const PathToLayoutForUtilityItem As String = "Assets/App/Modules/System/Core/ModulesSystem/view/utility_item.uxml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForCreateModulePage
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForCreateModulePage
+  id: PathToLayoutForCreateModulePage
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToLayoutForCreateModulePage
+  nameWithType: EditorConstantsForModuleSystem.PathToLayoutForCreateModulePage
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForCreateModulePage
+  type: Field
+  source:
+    id: PathToLayoutForCreateModulePage
+    path: ''
+    startLine: 1846
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToLayoutForCreateModulePage = "Assets/App/Modules/System/Core/ModulesSystem/view/create_module.uxml"
+    return:
+      type: System.String
+    content.vb: Public Const PathToLayoutForCreateModulePage As String = "Assets/App/Modules/System/Core/ModulesSystem/view/create_module.uxml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToSingletonPartsScriptTemplate
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToSingletonPartsScriptTemplate
+  id: PathToSingletonPartsScriptTemplate
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToSingletonPartsScriptTemplate
+  nameWithType: EditorConstantsForModuleSystem.PathToSingletonPartsScriptTemplate
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToSingletonPartsScriptTemplate
+  type: Field
+  source:
+    id: PathToSingletonPartsScriptTemplate
+    path: ''
+    startLine: 1849
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToSingletonPartsScriptTemplate = "App/Modules/System/Core/ModulesSystem/templates/SingletonParts.cs.tmpl"
+    return:
+      type: System.String
+    content.vb: Public Const PathToSingletonPartsScriptTemplate As String = "App/Modules/System/Core/ModulesSystem/templates/SingletonParts.cs.tmpl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToServiceScriptTemplate
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToServiceScriptTemplate
+  id: PathToServiceScriptTemplate
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToServiceScriptTemplate
+  nameWithType: EditorConstantsForModuleSystem.PathToServiceScriptTemplate
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToServiceScriptTemplate
+  type: Field
+  source:
+    id: PathToServiceScriptTemplate
+    path: ''
+    startLine: 1851
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToServiceScriptTemplate = "App/Modules/System/Core/ModulesSystem/templates/Service.cs.tmpl"
+    return:
+      type: System.String
+    content.vb: Public Const PathToServiceScriptTemplate As String = "App/Modules/System/Core/ModulesSystem/templates/Service.cs.tmpl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToSingletonManagerScriptTemplate
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToSingletonManagerScriptTemplate
+  id: PathToSingletonManagerScriptTemplate
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToSingletonManagerScriptTemplate
+  nameWithType: EditorConstantsForModuleSystem.PathToSingletonManagerScriptTemplate
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToSingletonManagerScriptTemplate
+  type: Field
+  source:
+    id: PathToSingletonManagerScriptTemplate
+    path: ''
+    startLine: 1854
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToSingletonManagerScriptTemplate = "App/Modules/System/Core/ModulesSystem/templates/ManagerSingleton.cs.tmpl"
+    return:
+      type: System.String
+    content.vb: Public Const PathToSingletonManagerScriptTemplate As String = "App/Modules/System/Core/ModulesSystem/templates/ManagerSingleton.cs.tmpl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToHooksScriptTemplate
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToHooksScriptTemplate
+  id: PathToHooksScriptTemplate
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToHooksScriptTemplate
+  nameWithType: EditorConstantsForModuleSystem.PathToHooksScriptTemplate
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToHooksScriptTemplate
+  type: Field
+  source:
+    id: PathToHooksScriptTemplate
+    path: ''
+    startLine: 1857
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToHooksScriptTemplate = "App/Modules/System/Core/ModulesSystem/templates/Hooks.cs.tmpl"
+    return:
+      type: System.String
+    content.vb: Public Const PathToHooksScriptTemplate As String = "App/Modules/System/Core/ModulesSystem/templates/Hooks.cs.tmpl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToStoreScriptTemplate
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToStoreScriptTemplate
+  id: PathToStoreScriptTemplate
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToStoreScriptTemplate
+  nameWithType: EditorConstantsForModuleSystem.PathToStoreScriptTemplate
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToStoreScriptTemplate
+  type: Field
+  source:
+    id: PathToStoreScriptTemplate
+    path: ''
+    startLine: 1858
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToStoreScriptTemplate = "App/Modules/System/Core/ModulesSystem/templates/Store.cs.tmpl"
+    return:
+      type: System.String
+    content.vb: Public Const PathToStoreScriptTemplate As String = "App/Modules/System/Core/ModulesSystem/templates/Store.cs.tmpl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAPISystemInterfaceTemplate
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAPISystemInterfaceTemplate
+  id: PathToAPISystemInterfaceTemplate
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToAPISystemInterfaceTemplate
+  nameWithType: EditorConstantsForModuleSystem.PathToAPISystemInterfaceTemplate
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAPISystemInterfaceTemplate
+  type: Field
+  source:
+    id: PathToAPISystemInterfaceTemplate
+    path: ''
+    startLine: 1860
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToAPISystemInterfaceTemplate = "App/Modules/System/Core/ModulesSystem/templates/IServiceSystemContext.cs.tmpl"
+    return:
+      type: System.String
+    content.vb: Public Const PathToAPISystemInterfaceTemplate As String = "App/Modules/System/Core/ModulesSystem/templates/IServiceSystemContext.cs.tmpl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAPIDomainInterfaceTemplate
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAPIDomainInterfaceTemplate
+  id: PathToAPIDomainInterfaceTemplate
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToAPIDomainInterfaceTemplate
+  nameWithType: EditorConstantsForModuleSystem.PathToAPIDomainInterfaceTemplate
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToAPIDomainInterfaceTemplate
+  type: Field
+  source:
+    id: PathToAPIDomainInterfaceTemplate
+    path: ''
+    startLine: 1861
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToAPIDomainInterfaceTemplate = "App/Modules/System/Core/ModulesSystem/templates/IServiceDomainContext.cs.tmpl"
+    return:
+      type: System.String
+    content.vb: Public Const PathToAPIDomainInterfaceTemplate As String = "App/Modules/System/Core/ModulesSystem/templates/IServiceDomainContext.cs.tmpl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAddFilesToModulePage
+  commentId: F:OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAddFilesToModulePage
+  id: PathToLayoutForAddFilesToModulePage
+  parent: OpenGameFramework.Editor.EditorConstantsForModuleSystem
+  langs:
+  - csharp
+  - vb
+  name: PathToLayoutForAddFilesToModulePage
+  nameWithType: EditorConstantsForModuleSystem.PathToLayoutForAddFilesToModulePage
+  fullName: OpenGameFramework.Editor.EditorConstantsForModuleSystem.PathToLayoutForAddFilesToModulePage
+  type: Field
+  source:
+    id: PathToLayoutForAddFilesToModulePage
+    path: ''
+    startLine: 1864
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public const string PathToLayoutForAddFilesToModulePage = "Assets/App/Modules/System/Core/ModulesSystem/view/add_files_to_module.uxml"
+    return:
+      type: System.String
+    content.vb: Public Const PathToLayoutForAddFilesToModulePage As String = "Assets/App/Modules/System/Core/ModulesSystem/view/add_files_to_module.uxml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: OpenGameFramework.Editor
+  commentId: N:OpenGameFramework.Editor
+  name: OpenGameFramework.Editor
+  nameWithType: OpenGameFramework.Editor
+  fullName: OpenGameFramework.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

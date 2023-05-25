@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.App
+  commentId: T:OpenGameFramework.App
+  id: App
+  parent: OpenGameFramework
+  children:
+  - OpenGameFramework.App.AssetsManager
+  - OpenGameFramework.App.GlobalConfig
+  - OpenGameFramework.App.Log(System.Object,System.Object,System.Object[])
+  - OpenGameFramework.App.LogException(System.Object,Exception)
+  - OpenGameFramework.App.LogException(System.Object,System.String,System.Object[])
+  - OpenGameFramework.App.LogWarning(System.Object,System.String,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: App
+  nameWithType: App
+  fullName: OpenGameFramework.App
+  type: Class
+  source:
+    id: App
+    path: ''
+    startLine: 2799
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: 'public class App : MonoBehaviour, MonoBehaviour'
+    content.vb: >-
+      Public Class App
+          Inherits MonoBehaviour
+          Implements MonoBehaviour
+  inheritance:
+  - System.Object
+  implements:
+  - MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.App.GlobalConfig
+  commentId: F:OpenGameFramework.App.GlobalConfig
+  id: GlobalConfig
+  parent: OpenGameFramework.App
+  langs:
+  - csharp
+  - vb
+  name: GlobalConfig
+  nameWithType: App.GlobalConfig
+  fullName: OpenGameFramework.App.GlobalConfig
+  type: Field
+  source:
+    id: GlobalConfig
+    path: ''
+    startLine: 2103
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public static GlobalConfig GlobalConfig
+    return:
+      type: OpenGameFramework.GlobalConfig
+    content.vb: Public Shared GlobalConfig As GlobalConfig
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: OpenGameFramework.App.Log(System.Object,System.Object,System.Object[])
+  commentId: M:OpenGameFramework.App.Log(System.Object,System.Object,System.Object[])
+  id: Log(System.Object,System.Object,System.Object[])
+  parent: OpenGameFramework.App
+  langs:
+  - csharp
+  - vb
+  name: Log(Object, Object, Object[])
+  nameWithType: App.Log(Object, Object, Object[])
+  fullName: OpenGameFramework.App.Log(System.Object, System.Object, System.Object[])
+  type: Method
+  source:
+    id: Log
+    path: ''
+    startLine: 2256
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public static void Log(object source, object message, params object[] args)
+    parameters:
+    - id: source
+      type: System.Object
+    - id: message
+      type: System.Object
+    - id: args
+      type: System.Object[]
+    content.vb: Public Shared Sub Log(source As Object, message As Object, ParamArray args As Object())
+  overload: OpenGameFramework.App.Log*
+  nameWithType.vb: App.Log(Object, Object, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: OpenGameFramework.App.Log(System.Object, System.Object, System.Object())
+  name.vb: Log(Object, Object, Object())
+- uid: OpenGameFramework.App.LogWarning(System.Object,System.String,System.Object[])
+  commentId: M:OpenGameFramework.App.LogWarning(System.Object,System.String,System.Object[])
+  id: LogWarning(System.Object,System.String,System.Object[])
+  parent: OpenGameFramework.App
+  langs:
+  - csharp
+  - vb
+  name: LogWarning(Object, String, Object[])
+  nameWithType: App.LogWarning(Object, String, Object[])
+  fullName: OpenGameFramework.App.LogWarning(System.Object, System.String, System.Object[])
+  type: Method
+  source:
+    id: LogWarning
+    path: ''
+    startLine: 2273
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public static void LogWarning(object source, string message, params object[] args)
+    parameters:
+    - id: source
+      type: System.Object
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Shared Sub LogWarning(source As Object, message As String, ParamArray args As Object())
+  overload: OpenGameFramework.App.LogWarning*
+  nameWithType.vb: App.LogWarning(Object, String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: OpenGameFramework.App.LogWarning(System.Object, System.String, System.Object())
+  name.vb: LogWarning(Object, String, Object())
+- uid: OpenGameFramework.App.LogException(System.Object,System.String,System.Object[])
+  commentId: M:OpenGameFramework.App.LogException(System.Object,System.String,System.Object[])
+  id: LogException(System.Object,System.String,System.Object[])
+  parent: OpenGameFramework.App
+  langs:
+  - csharp
+  - vb
+  name: LogException(Object, String, Object[])
+  nameWithType: App.LogException(Object, String, Object[])
+  fullName: OpenGameFramework.App.LogException(System.Object, System.String, System.Object[])
+  type: Method
+  source:
+    id: LogException
+    path: ''
+    startLine: 2290
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public static void LogException(object source, string message, params object[] args)
+    parameters:
+    - id: source
+      type: System.Object
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Shared Sub LogException(source As Object, message As String, ParamArray args As Object())
+  overload: OpenGameFramework.App.LogException*
+  nameWithType.vb: App.LogException(Object, String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: OpenGameFramework.App.LogException(System.Object, System.String, System.Object())
+  name.vb: LogException(Object, String, Object())
+- uid: OpenGameFramework.App.LogException(System.Object,Exception)
+  commentId: M:OpenGameFramework.App.LogException(System.Object,Exception)
+  id: LogException(System.Object,Exception)
+  parent: OpenGameFramework.App
+  langs:
+  - csharp
+  - vb
+  name: LogException(Object, Exception)
+  nameWithType: App.LogException(Object, Exception)
+  fullName: OpenGameFramework.App.LogException(System.Object, Exception)
+  type: Method
+  source:
+    id: LogException
+    path: ''
+    startLine: 2323
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public static void LogException(object source, Exception exception)
+    parameters:
+    - id: source
+      type: System.Object
+    - id: exception
+      type: Exception
+    content.vb: Public Shared Sub LogException(source As Object, exception As Exception)
+  overload: OpenGameFramework.App.LogException*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: OpenGameFramework.App.AssetsManager
+  commentId: F:OpenGameFramework.App.AssetsManager
+  id: AssetsManager
+  parent: OpenGameFramework.App
+  langs:
+  - csharp
+  - vb
+  name: AssetsManager
+  nameWithType: App.AssetsManager
+  fullName: OpenGameFramework.App.AssetsManager
+  type: Field
+  source:
+    id: AssetsManager
+    path: ''
+    startLine: 2801
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public static AssetsManager AssetsManager
+    return:
+      type: OpenGameFramework.AssetsManager
+    content.vb: Public Shared AssetsManager As AssetsManager
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: OpenGameFramework
+  commentId: N:OpenGameFramework
+  name: OpenGameFramework
+  nameWithType: OpenGameFramework
+  fullName: OpenGameFramework
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: MonoBehaviour
+  commentId: '!:MonoBehaviour'
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenGameFramework.GlobalConfig
+  commentId: T:OpenGameFramework.GlobalConfig
+  parent: OpenGameFramework
+  name: GlobalConfig
+  nameWithType: GlobalConfig
+  fullName: OpenGameFramework.GlobalConfig
+- uid: OpenGameFramework.App.Log*
+  commentId: Overload:OpenGameFramework.App.Log
+  name: Log
+  nameWithType: App.Log
+  fullName: OpenGameFramework.App.Log
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenGameFramework.App.LogWarning*
+  commentId: Overload:OpenGameFramework.App.LogWarning
+  name: LogWarning
+  nameWithType: App.LogWarning
+  fullName: OpenGameFramework.App.LogWarning
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenGameFramework.App.LogException*
+  commentId: Overload:OpenGameFramework.App.LogException
+  name: LogException
+  nameWithType: App.LogException
+  fullName: OpenGameFramework.App.LogException
+- uid: Exception
+  commentId: '!:Exception'
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: OpenGameFramework.AssetsManager
+  commentId: T:OpenGameFramework.AssetsManager
+  parent: OpenGameFramework
+  name: AssetsManager
+  nameWithType: AssetsManager
+  fullName: OpenGameFramework.AssetsManager

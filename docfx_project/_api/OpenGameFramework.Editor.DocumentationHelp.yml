@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.Editor.DocumentationHelp
+  commentId: T:OpenGameFramework.Editor.DocumentationHelp
+  id: DocumentationHelp
+  parent: OpenGameFramework.Editor
+  children:
+  - OpenGameFramework.Editor.DocumentationHelp.OpenDocumentation
+  langs:
+  - csharp
+  - vb
+  name: DocumentationHelp
+  nameWithType: DocumentationHelp
+  fullName: OpenGameFramework.Editor.DocumentationHelp
+  type: Class
+  source:
+    id: DocumentationHelp
+    path: ''
+    startLine: 291
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: 'public class DocumentationHelp : EditorWindow'
+    content.vb: >-
+      Public Class DocumentationHelp
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.Editor.DocumentationHelp.OpenDocumentation
+  commentId: M:OpenGameFramework.Editor.DocumentationHelp.OpenDocumentation
+  id: OpenDocumentation
+  parent: OpenGameFramework.Editor.DocumentationHelp
+  langs:
+  - csharp
+  - vb
+  name: OpenDocumentation()
+  nameWithType: DocumentationHelp.OpenDocumentation()
+  fullName: OpenGameFramework.Editor.DocumentationHelp.OpenDocumentation()
+  type: Method
+  source:
+    id: OpenDocumentation
+    path: ''
+    startLine: 293
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public static void OpenDocumentation()
+    content.vb: Public Shared Sub OpenDocumentation
+  overload: OpenGameFramework.Editor.DocumentationHelp.OpenDocumentation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: OpenGameFramework.Editor
+  commentId: N:OpenGameFramework.Editor
+  name: OpenGameFramework.Editor
+  nameWithType: OpenGameFramework.Editor
+  fullName: OpenGameFramework.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenGameFramework.Editor.DocumentationHelp.OpenDocumentation*
+  commentId: Overload:OpenGameFramework.Editor.DocumentationHelp.OpenDocumentation
+  name: OpenDocumentation
+  nameWithType: DocumentationHelp.OpenDocumentation
+  fullName: OpenGameFramework.Editor.DocumentationHelp.OpenDocumentation

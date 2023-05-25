@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.API.Match3BoardService
+  commentId: T:OpenGameFramework.API.Match3BoardService
+  id: Match3BoardService
+  parent: OpenGameFramework.API
+  children:
+  - OpenGameFramework.API.Match3BoardService.#ctor
+  - OpenGameFramework.API.Match3BoardService.Init
+  - OpenGameFramework.API.Match3BoardService.PreInit
+  - OpenGameFramework.API.Match3BoardService.Test
+  langs:
+  - csharp
+  - vb
+  name: Match3BoardService
+  nameWithType: Match3BoardService
+  fullName: OpenGameFramework.API.Match3BoardService
+  type: Class
+  source:
+    id: Match3BoardService
+    path: ''
+    startLine: 3477
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: >-
+      [Inject(typeof(API.Domain.IMatch3BoardService))]
+
+      public class Match3BoardService : API.Domain.IMatch3BoardService, IServiceDi
+    content.vb: >-
+      <Inject(GetType(API.Domain.IMatch3BoardService))>
+
+      Public Class Match3BoardService
+          Implements API.Domain.IMatch3BoardService, IServiceDi
+  inheritance:
+  - System.Object
+  implements:
+  - OpenGameFramework.API.API.Domain.IMatch3BoardService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: OpenGameFramework.DI.InjectAttribute
+    ctor: OpenGameFramework.DI.InjectAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: OpenGameFramework.API.API.Domain.IMatch3BoardService
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.API.Match3BoardService.#ctor
+  commentId: M:OpenGameFramework.API.Match3BoardService.#ctor
+  id: '#ctor'
+  parent: OpenGameFramework.API.Match3BoardService
+  langs:
+  - csharp
+  - vb
+  name: Match3BoardService()
+  nameWithType: Match3BoardService.Match3BoardService()
+  fullName: OpenGameFramework.API.Match3BoardService.Match3BoardService()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3480
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public Match3BoardService()
+    content.vb: Public Sub New
+  overload: OpenGameFramework.API.Match3BoardService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.Match3BoardService.PreInit
+  commentId: M:OpenGameFramework.API.Match3BoardService.PreInit
+  id: PreInit
+  parent: OpenGameFramework.API.Match3BoardService
+  langs:
+  - csharp
+  - vb
+  name: PreInit()
+  nameWithType: Match3BoardService.PreInit()
+  fullName: OpenGameFramework.API.Match3BoardService.PreInit()
+  type: Method
+  source:
+    id: PreInit
+    path: ''
+    startLine: 3488
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  summary: "\nPre-initialization function\n"
+  example: []
+  syntax:
+    content: public void PreInit()
+    content.vb: Public Sub PreInit
+  overload: OpenGameFramework.API.Match3BoardService.PreInit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.Match3BoardService.Init
+  commentId: M:OpenGameFramework.API.Match3BoardService.Init
+  id: Init
+  parent: OpenGameFramework.API.Match3BoardService
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: Match3BoardService.Init()
+  fullName: OpenGameFramework.API.Match3BoardService.Init()
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 3496
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  summary: "\nInitialization function\n"
+  example: []
+  syntax:
+    content: public void Init()
+    content.vb: Public Sub Init
+  overload: OpenGameFramework.API.Match3BoardService.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.Match3BoardService.Test
+  commentId: M:OpenGameFramework.API.Match3BoardService.Test
+  id: Test
+  parent: OpenGameFramework.API.Match3BoardService
+  langs:
+  - csharp
+  - vb
+  name: Test()
+  nameWithType: Match3BoardService.Test()
+  fullName: OpenGameFramework.API.Match3BoardService.Test()
+  type: Method
+  source:
+    id: Test
+    path: ''
+    startLine: 3501
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public void Test()
+    content.vb: Public Sub Test
+  overload: OpenGameFramework.API.Match3BoardService.Test*
+  implements:
+  - OpenGameFramework.API.API.Domain.IMatch3BoardService.Test
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenGameFramework.API
+  commentId: N:OpenGameFramework.API
+  name: OpenGameFramework.API
+  nameWithType: OpenGameFramework.API
+  fullName: OpenGameFramework.API
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenGameFramework.API.API.Domain.IMatch3BoardService
+  commentId: T:OpenGameFramework.API.API.Domain.IMatch3BoardService
+  parent: OpenGameFramework.API
+  name: API.Domain.IMatch3BoardService
+  nameWithType: API.Domain.IMatch3BoardService
+  fullName: OpenGameFramework.API.API.Domain.IMatch3BoardService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenGameFramework.API.Match3BoardService.#ctor*
+  commentId: Overload:OpenGameFramework.API.Match3BoardService.#ctor
+  name: Match3BoardService
+  nameWithType: Match3BoardService.Match3BoardService
+  fullName: OpenGameFramework.API.Match3BoardService.Match3BoardService
+- uid: OpenGameFramework.API.Match3BoardService.PreInit*
+  commentId: Overload:OpenGameFramework.API.Match3BoardService.PreInit
+  name: PreInit
+  nameWithType: Match3BoardService.PreInit
+  fullName: OpenGameFramework.API.Match3BoardService.PreInit
+- uid: OpenGameFramework.API.Match3BoardService.Init*
+  commentId: Overload:OpenGameFramework.API.Match3BoardService.Init
+  name: Init
+  nameWithType: Match3BoardService.Init
+  fullName: OpenGameFramework.API.Match3BoardService.Init
+- uid: OpenGameFramework.API.Match3BoardService.Test*
+  commentId: Overload:OpenGameFramework.API.Match3BoardService.Test
+  name: Test
+  nameWithType: Match3BoardService.Test
+  fullName: OpenGameFramework.API.Match3BoardService.Test
+- uid: OpenGameFramework.API.API.Domain.IMatch3BoardService.Test
+  commentId: M:OpenGameFramework.API.API.Domain.IMatch3BoardService.Test
+  parent: OpenGameFramework.API.API.Domain.IMatch3BoardService
+  name: Test()
+  nameWithType: API.Domain.IMatch3BoardService.Test()
+  fullName: OpenGameFramework.API.API.Domain.IMatch3BoardService.Test()
+  spec.csharp:
+  - uid: OpenGameFramework.API.API.Domain.IMatch3BoardService.Test
+    name: Test
+    nameWithType: API.Domain.IMatch3BoardService.Test
+    fullName: OpenGameFramework.API.API.Domain.IMatch3BoardService.Test
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenGameFramework.API.API.Domain.IMatch3BoardService.Test
+    name: Test
+    nameWithType: API.Domain.IMatch3BoardService.Test
+    fullName: OpenGameFramework.API.API.Domain.IMatch3BoardService.Test
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

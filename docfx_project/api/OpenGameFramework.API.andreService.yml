@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.API.andreService
+  commentId: T:OpenGameFramework.API.andreService
+  id: andreService
+  parent: OpenGameFramework.API
+  children:
+  - OpenGameFramework.API.andreService.#ctor
+  - OpenGameFramework.API.andreService.Init
+  - OpenGameFramework.API.andreService.PreInit
+  langs:
+  - csharp
+  - vb
+  name: andreService
+  nameWithType: andreService
+  fullName: OpenGameFramework.API.andreService
+  type: Class
+  source:
+    id: andreService
+    path: ''
+    startLine: 3417
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: >-
+      [Inject(typeof(API.Domain.IandreService))]
+
+      public class andreService : IServiceDi
+    content.vb: >-
+      <Inject(GetType(API.Domain.IandreService))>
+
+      Public Class andreService
+          Implements IServiceDi
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: OpenGameFramework.DI.InjectAttribute
+    ctor: OpenGameFramework.DI.InjectAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: OpenGameFramework.API.API.Domain.IandreService
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.API.andreService.#ctor
+  commentId: M:OpenGameFramework.API.andreService.#ctor
+  id: '#ctor'
+  parent: OpenGameFramework.API.andreService
+  langs:
+  - csharp
+  - vb
+  name: andreService()
+  nameWithType: andreService.andreService()
+  fullName: OpenGameFramework.API.andreService.andreService()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3420
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public andreService()
+    content.vb: Public Sub New
+  overload: OpenGameFramework.API.andreService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.andreService.PreInit
+  commentId: M:OpenGameFramework.API.andreService.PreInit
+  id: PreInit
+  parent: OpenGameFramework.API.andreService
+  langs:
+  - csharp
+  - vb
+  name: PreInit()
+  nameWithType: andreService.PreInit()
+  fullName: OpenGameFramework.API.andreService.PreInit()
+  type: Method
+  source:
+    id: PreInit
+    path: ''
+    startLine: 3427
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  summary: "\nPre-initialization function\n"
+  example: []
+  syntax:
+    content: public void PreInit()
+    content.vb: Public Sub PreInit
+  overload: OpenGameFramework.API.andreService.PreInit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.andreService.Init
+  commentId: M:OpenGameFramework.API.andreService.Init
+  id: Init
+  parent: OpenGameFramework.API.andreService
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: andreService.Init()
+  fullName: OpenGameFramework.API.andreService.Init()
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 3435
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  summary: "\nInitialization function\n"
+  example: []
+  syntax:
+    content: public void Init()
+    content.vb: Public Sub Init
+  overload: OpenGameFramework.API.andreService.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenGameFramework.API
+  commentId: N:OpenGameFramework.API
+  name: OpenGameFramework.API
+  nameWithType: OpenGameFramework.API
+  fullName: OpenGameFramework.API
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenGameFramework.API.andreService.#ctor*
+  commentId: Overload:OpenGameFramework.API.andreService.#ctor
+  name: andreService
+  nameWithType: andreService.andreService
+  fullName: OpenGameFramework.API.andreService.andreService
+- uid: OpenGameFramework.API.andreService.PreInit*
+  commentId: Overload:OpenGameFramework.API.andreService.PreInit
+  name: PreInit
+  nameWithType: andreService.PreInit
+  fullName: OpenGameFramework.API.andreService.PreInit
+- uid: OpenGameFramework.API.andreService.Init*
+  commentId: Overload:OpenGameFramework.API.andreService.Init
+  name: Init
+  nameWithType: andreService.Init
+  fullName: OpenGameFramework.API.andreService.Init

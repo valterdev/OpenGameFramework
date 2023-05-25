@@ -1,0 +1,19 @@
+{
+    "hash": "f0637a6173a6822c9f9a281a04849a13",
+    "category": "",
+    "name": "Match3Board",
+    "custom_manager_name": "",
+    "version": "0.0.1",
+    "author": "",
+    "site": "",
+    "email": "",
+    "type": 10,
+    "state": 0,
+    "description": "Match3 mechanics",
+    "preinit": false,
+    "critical": false,
+    "dependencies": [],
+    "utils": [],
+    "plugins": [],
+    "content_files": []
+}

@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.IAppTask
+  commentId: T:OpenGameFramework.IAppTask
+  id: IAppTask
+  parent: OpenGameFramework
+  children:
+  - OpenGameFramework.IAppTask.Run
+  langs:
+  - csharp
+  - vb
+  name: IAppTask
+  nameWithType: IAppTask
+  fullName: OpenGameFramework.IAppTask
+  type: Interface
+  source:
+    id: IAppTask
+    path: ''
+    startLine: 2696
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public interface IAppTask
+    content.vb: Public Interface IAppTask
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenGameFramework.IAppTask.Run
+  commentId: M:OpenGameFramework.IAppTask.Run
+  id: Run
+  parent: OpenGameFramework.IAppTask
+  langs:
+  - csharp
+  - vb
+  name: Run()
+  nameWithType: IAppTask.Run()
+  fullName: OpenGameFramework.IAppTask.Run()
+  type: Method
+  source:
+    id: Run
+    path: ''
+    startLine: 2698
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: UniTask Run()
+    return:
+      type: UniTask
+    content.vb: Function Run As UniTask
+  overload: OpenGameFramework.IAppTask.Run*
+references:
+- uid: OpenGameFramework
+  commentId: N:OpenGameFramework
+  name: OpenGameFramework
+  nameWithType: OpenGameFramework
+  fullName: OpenGameFramework
+- uid: OpenGameFramework.IAppTask.Run*
+  commentId: Overload:OpenGameFramework.IAppTask.Run
+  name: Run
+  nameWithType: IAppTask.Run
+  fullName: OpenGameFramework.IAppTask.Run
+- uid: UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask

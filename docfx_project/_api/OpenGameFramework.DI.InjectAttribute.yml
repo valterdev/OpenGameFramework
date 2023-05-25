@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.DI.InjectAttribute
+  commentId: T:OpenGameFramework.DI.InjectAttribute
+  id: InjectAttribute
+  parent: OpenGameFramework.DI
+  children:
+  - OpenGameFramework.DI.InjectAttribute.#ctor(Type)
+  - OpenGameFramework.DI.InjectAttribute.InterfaceType
+  langs:
+  - csharp
+  - vb
+  name: InjectAttribute
+  nameWithType: InjectAttribute
+  fullName: OpenGameFramework.DI.InjectAttribute
+  type: Class
+  source:
+    id: InjectAttribute
+    path: ''
+    startLine: 262
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.DI
+  syntax:
+    content: 'public class InjectAttribute : Attribute'
+    content.vb: >-
+      Public Class InjectAttribute
+          Inherits Attribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.DI.InjectAttribute.InterfaceType
+  commentId: P:OpenGameFramework.DI.InjectAttribute.InterfaceType
+  id: InterfaceType
+  parent: OpenGameFramework.DI.InjectAttribute
+  langs:
+  - csharp
+  - vb
+  name: InterfaceType
+  nameWithType: InjectAttribute.InterfaceType
+  fullName: OpenGameFramework.DI.InjectAttribute.InterfaceType
+  type: Property
+  source:
+    id: InterfaceType
+    path: ''
+    startLine: 264
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.DI
+  syntax:
+    content: public Type InterfaceType { get; }
+    parameters: []
+    return:
+      type: Type
+    content.vb: Public ReadOnly Property InterfaceType As Type
+  overload: OpenGameFramework.DI.InjectAttribute.InterfaceType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: OpenGameFramework.DI.InjectAttribute.#ctor(Type)
+  commentId: M:OpenGameFramework.DI.InjectAttribute.#ctor(Type)
+  id: '#ctor(Type)'
+  parent: OpenGameFramework.DI.InjectAttribute
+  langs:
+  - csharp
+  - vb
+  name: InjectAttribute(Type)
+  nameWithType: InjectAttribute.InjectAttribute(Type)
+  fullName: OpenGameFramework.DI.InjectAttribute.InjectAttribute(Type)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 266
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.DI
+  syntax:
+    content: public InjectAttribute(Type interfaceType)
+    parameters:
+    - id: interfaceType
+      type: Type
+    content.vb: Public Sub New(interfaceType As Type)
+  overload: OpenGameFramework.DI.InjectAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenGameFramework.DI
+  commentId: N:OpenGameFramework.DI
+  name: OpenGameFramework.DI
+  nameWithType: OpenGameFramework.DI
+  fullName: OpenGameFramework.DI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenGameFramework.DI.InjectAttribute.InterfaceType*
+  commentId: Overload:OpenGameFramework.DI.InjectAttribute.InterfaceType
+  name: InterfaceType
+  nameWithType: InjectAttribute.InterfaceType
+  fullName: OpenGameFramework.DI.InjectAttribute.InterfaceType
+- uid: Type
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: Type
+- uid: OpenGameFramework.DI.InjectAttribute.#ctor*
+  commentId: Overload:OpenGameFramework.DI.InjectAttribute.#ctor
+  name: InjectAttribute
+  nameWithType: InjectAttribute.InjectAttribute
+  fullName: OpenGameFramework.DI.InjectAttribute.InjectAttribute

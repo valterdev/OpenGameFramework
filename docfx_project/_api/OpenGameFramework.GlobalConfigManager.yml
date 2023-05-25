@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.GlobalConfigManager
+  commentId: T:OpenGameFramework.GlobalConfigManager
+  id: GlobalConfigManager
+  parent: OpenGameFramework
+  children:
+  - OpenGameFramework.GlobalConfigManager.GlobalConfigFilePath
+  - OpenGameFramework.GlobalConfigManager.PreInit
+  langs:
+  - csharp
+  - vb
+  name: GlobalConfigManager
+  nameWithType: GlobalConfigManager
+  fullName: OpenGameFramework.GlobalConfigManager
+  type: Class
+  source:
+    id: GlobalConfigManager
+    path: ''
+    startLine: 2068
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: 'public class GlobalConfigManager : SingletonCrossScene<GlobalConfigManager>'
+    content.vb: >-
+      Public Class GlobalConfigManager
+          Inherits SingletonCrossScene(Of GlobalConfigManager)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.GlobalConfigManager.GlobalConfigFilePath
+  commentId: F:OpenGameFramework.GlobalConfigManager.GlobalConfigFilePath
+  id: GlobalConfigFilePath
+  parent: OpenGameFramework.GlobalConfigManager
+  langs:
+  - csharp
+  - vb
+  name: GlobalConfigFilePath
+  nameWithType: GlobalConfigManager.GlobalConfigFilePath
+  fullName: OpenGameFramework.GlobalConfigManager.GlobalConfigFilePath
+  type: Field
+  source:
+    id: GlobalConfigFilePath
+    path: ''
+    startLine: 2071
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public const string GlobalConfigFilePath = "Assets/App/Modules/System/Config/Global_Config.asset"
+    return:
+      type: System.String
+    content.vb: Public Const GlobalConfigFilePath As String = "Assets/App/Modules/System/Config/Global_Config.asset"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.GlobalConfigManager.PreInit
+  commentId: M:OpenGameFramework.GlobalConfigManager.PreInit
+  id: PreInit
+  parent: OpenGameFramework.GlobalConfigManager
+  langs:
+  - csharp
+  - vb
+  name: PreInit()
+  nameWithType: GlobalConfigManager.PreInit()
+  fullName: OpenGameFramework.GlobalConfigManager.PreInit()
+  type: Method
+  source:
+    id: PreInit
+    path: ''
+    startLine: 2078
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  summary: "\nPre-initialization function\n"
+  example: []
+  syntax:
+    content: public void PreInit()
+    content.vb: Public Sub PreInit
+  overload: OpenGameFramework.GlobalConfigManager.PreInit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenGameFramework
+  commentId: N:OpenGameFramework
+  name: OpenGameFramework
+  nameWithType: OpenGameFramework
+  fullName: OpenGameFramework
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenGameFramework.GlobalConfigManager.PreInit*
+  commentId: Overload:OpenGameFramework.GlobalConfigManager.PreInit
+  name: PreInit
+  nameWithType: GlobalConfigManager.PreInit
+  fullName: OpenGameFramework.GlobalConfigManager.PreInit

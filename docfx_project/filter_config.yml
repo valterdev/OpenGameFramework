@@ -1,0 +1,24 @@
+apiRules:
+- include:
+    uidRegex: ^OpenGameFramework\.API
+    type: Interface
+
+#exclude global API
+- exclude:
+    uidRegex: ^App\.*
+    type: Type
+
+#exclude system namespace
+- exclude:
+    uidRegex: ^OpenGameFramework$
+    type: Namespace
+
+#exclude OpenGameFramework.DI.*
+- exclude:
+    uidRegex: ^OpenGameFramework\.DI
+    type: Type
+
+#exclude OpenGameFramework.Editor.*
+- exclude:
+    uidRegex: ^OpenGameFramework\.Editor
+    type: Type

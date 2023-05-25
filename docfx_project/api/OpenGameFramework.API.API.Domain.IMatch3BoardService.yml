@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.API.API.Domain.IMatch3BoardService
+  commentId: T:OpenGameFramework.API.API.Domain.IMatch3BoardService
+  id: API.Domain.IMatch3BoardService
+  parent: OpenGameFramework.API
+  children:
+  - OpenGameFramework.API.API.Domain.IMatch3BoardService.Test
+  langs:
+  - csharp
+  - vb
+  name: API.Domain.IMatch3BoardService
+  nameWithType: API.Domain.IMatch3BoardService
+  fullName: OpenGameFramework.API.API.Domain.IMatch3BoardService
+  type: Interface
+  source:
+    id: IMatch3BoardService
+    path: ''
+    startLine: 3522
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: 'public interface IMatch3BoardService : IServiceDi'
+    content.vb: >-
+      Public Interface IMatch3BoardService
+          Inherits IServiceDi
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenGameFramework.API.API.Domain.IMatch3BoardService.Test
+  commentId: M:OpenGameFramework.API.API.Domain.IMatch3BoardService.Test
+  id: Test
+  parent: OpenGameFramework.API.API.Domain.IMatch3BoardService
+  langs:
+  - csharp
+  - vb
+  name: Test()
+  nameWithType: API.Domain.IMatch3BoardService.Test()
+  fullName: OpenGameFramework.API.API.Domain.IMatch3BoardService.Test()
+  type: Method
+  source:
+    id: Test
+    path: ''
+    startLine: 3524
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: void Test()
+    content.vb: Sub Test
+  overload: OpenGameFramework.API.API.Domain.IMatch3BoardService.Test*
+references:
+- uid: OpenGameFramework.API
+  commentId: N:OpenGameFramework.API
+  name: OpenGameFramework.API
+  nameWithType: OpenGameFramework.API
+  fullName: OpenGameFramework.API
+- uid: OpenGameFramework.API.API.Domain.IMatch3BoardService.Test*
+  commentId: Overload:OpenGameFramework.API.API.Domain.IMatch3BoardService.Test
+  name: Test
+  nameWithType: API.Domain.IMatch3BoardService.Test
+  fullName: OpenGameFramework.API.API.Domain.IMatch3BoardService.Test

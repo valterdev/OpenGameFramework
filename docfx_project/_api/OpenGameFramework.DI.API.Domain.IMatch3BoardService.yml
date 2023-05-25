@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.DI.API.Domain.IMatch3BoardService
+  commentId: T:OpenGameFramework.DI.API.Domain.IMatch3BoardService
+  id: API.Domain.IMatch3BoardService
+  parent: OpenGameFramework.DI
+  children:
+  - OpenGameFramework.DI.API.Domain.IMatch3BoardService.Test
+  langs:
+  - csharp
+  - vb
+  name: API.Domain.IMatch3BoardService
+  nameWithType: API.Domain.IMatch3BoardService
+  fullName: OpenGameFramework.DI.API.Domain.IMatch3BoardService
+  type: Interface
+  source:
+    id: IMatch3BoardService
+    path: ''
+    startLine: 3002
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.DI
+  syntax:
+    content: 'public interface IMatch3BoardService : IServiceDi'
+    content.vb: >-
+      Public Interface IMatch3BoardService
+          Inherits IServiceDi
+  inheritedMembers:
+  - OpenGameFramework.DI.IServiceDi.PreInit
+  - OpenGameFramework.DI.IServiceDi.Init
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenGameFramework.DI.API.Domain.IMatch3BoardService.Test
+  commentId: M:OpenGameFramework.DI.API.Domain.IMatch3BoardService.Test
+  id: Test
+  parent: OpenGameFramework.DI.API.Domain.IMatch3BoardService
+  langs:
+  - csharp
+  - vb
+  name: Test()
+  nameWithType: API.Domain.IMatch3BoardService.Test()
+  fullName: OpenGameFramework.DI.API.Domain.IMatch3BoardService.Test()
+  type: Method
+  source:
+    id: Test
+    path: ''
+    startLine: 3004
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.DI
+  syntax:
+    content: void Test()
+    content.vb: Sub Test
+  overload: OpenGameFramework.DI.API.Domain.IMatch3BoardService.Test*
+references:
+- uid: OpenGameFramework.DI
+  commentId: N:OpenGameFramework.DI
+  name: OpenGameFramework.DI
+  nameWithType: OpenGameFramework.DI
+  fullName: OpenGameFramework.DI
+- uid: OpenGameFramework.DI.IServiceDi.PreInit
+  commentId: M:OpenGameFramework.DI.IServiceDi.PreInit
+  parent: OpenGameFramework.DI.IServiceDi
+  name: PreInit()
+  nameWithType: IServiceDi.PreInit()
+  fullName: OpenGameFramework.DI.IServiceDi.PreInit()
+  spec.csharp:
+  - uid: OpenGameFramework.DI.IServiceDi.PreInit
+    name: PreInit
+    nameWithType: IServiceDi.PreInit
+    fullName: OpenGameFramework.DI.IServiceDi.PreInit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenGameFramework.DI.IServiceDi.PreInit
+    name: PreInit
+    nameWithType: IServiceDi.PreInit
+    fullName: OpenGameFramework.DI.IServiceDi.PreInit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenGameFramework.DI.IServiceDi.Init
+  commentId: M:OpenGameFramework.DI.IServiceDi.Init
+  parent: OpenGameFramework.DI.IServiceDi
+  name: Init()
+  nameWithType: IServiceDi.Init()
+  fullName: OpenGameFramework.DI.IServiceDi.Init()
+  spec.csharp:
+  - uid: OpenGameFramework.DI.IServiceDi.Init
+    name: Init
+    nameWithType: IServiceDi.Init
+    fullName: OpenGameFramework.DI.IServiceDi.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenGameFramework.DI.IServiceDi.Init
+    name: Init
+    nameWithType: IServiceDi.Init
+    fullName: OpenGameFramework.DI.IServiceDi.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenGameFramework.DI.IServiceDi
+  commentId: T:OpenGameFramework.DI.IServiceDi
+  parent: OpenGameFramework.DI
+  name: IServiceDi
+  nameWithType: IServiceDi
+  fullName: OpenGameFramework.DI.IServiceDi
+- uid: OpenGameFramework.DI.API.Domain.IMatch3BoardService.Test*
+  commentId: Overload:OpenGameFramework.DI.API.Domain.IMatch3BoardService.Test
+  name: Test
+  nameWithType: API.Domain.IMatch3BoardService.Test
+  fullName: OpenGameFramework.DI.API.Domain.IMatch3BoardService.Test

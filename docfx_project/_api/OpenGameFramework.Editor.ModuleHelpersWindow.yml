@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.Editor.ModuleHelpersWindow
+  commentId: T:OpenGameFramework.Editor.ModuleHelpersWindow
+  id: ModuleHelpersWindow
+  parent: OpenGameFramework.Editor
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ModuleHelpersWindow
+  nameWithType: ModuleHelpersWindow
+  fullName: OpenGameFramework.Editor.ModuleHelpersWindow
+  type: Class
+  source:
+    id: ModuleHelpersWindow
+    path: ''
+    startLine: 310
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  summary: "\nA window with all sorts of auxiliary functions for ZFramework modules (an extension for the Unity editor)\n"
+  example: []
+  syntax:
+    content: 'public class ModuleHelpersWindow : EditorWindow'
+    content.vb: >-
+      Public Class ModuleHelpersWindow
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenGameFramework.Editor
+  commentId: N:OpenGameFramework.Editor
+  name: OpenGameFramework.Editor
+  nameWithType: OpenGameFramework.Editor
+  fullName: OpenGameFramework.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

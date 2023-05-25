@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.API.API.Domain.IandreService
+  commentId: T:OpenGameFramework.API.API.Domain.IandreService
+  id: API.Domain.IandreService
+  parent: OpenGameFramework.API
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: API.Domain.IandreService
+  nameWithType: API.Domain.IandreService
+  fullName: OpenGameFramework.API.API.Domain.IandreService
+  type: Interface
+  source:
+    id: IandreService
+    path: ''
+    startLine: 3449
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: 'public interface IandreService : IServiceDi'
+    content.vb: >-
+      Public Interface IandreService
+          Inherits IServiceDi
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: OpenGameFramework.API
+  commentId: N:OpenGameFramework.API
+  name: OpenGameFramework.API
+  nameWithType: OpenGameFramework.API
+  fullName: OpenGameFramework.API

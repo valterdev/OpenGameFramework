@@ -1,0 +1,19 @@
+{
+    "hash": "74146737a6d01ee96fffe75e2b28b695",
+    "category": "",
+    "name": "AssetsManager",
+    "custom_manager_name": "AssetsManager",
+    "version": "0.0.1",
+    "author": "Andrei Abdusamatov",
+    "site": "",
+    "email": "",
+    "type": 1,
+    "state": 0,
+    "description": "(Legacy with Singleton) Manager for addresable assets",
+    "preinit": true,
+    "critical": true,
+    "dependencies": [],
+    "utils": [],
+    "plugins": [],
+    "content_files": []
+}

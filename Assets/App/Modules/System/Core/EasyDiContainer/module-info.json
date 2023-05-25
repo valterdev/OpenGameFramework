@@ -1,0 +1,19 @@
+{
+    "hash": "adbf1cdf821572a24c28f84a2bfc421b",
+    "category": "",
+    "name": "EasyDiContainer",
+    "custom_manager_name": "",
+    "version": "0.2.7",
+    "author": "Andrei Abdusamatov",
+    "site": "",
+    "email": "",
+    "type": 0,
+    "state": 0,
+    "description": "Simple IoC (DI) container for resolve module dependencies.",
+    "preinit": false,
+    "critical": true,
+    "dependencies": [],
+    "utils": [],
+    "plugins": [],
+    "content_files": []
+}

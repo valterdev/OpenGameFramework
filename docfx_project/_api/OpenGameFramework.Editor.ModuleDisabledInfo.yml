@@ -1,0 +1,548 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.Editor.ModuleDisabledInfo
+  commentId: T:OpenGameFramework.Editor.ModuleDisabledInfo
+  id: ModuleDisabledInfo
+  parent: OpenGameFramework.Editor
+  children:
+  - OpenGameFramework.Editor.ModuleDisabledInfo.archive_name
+  - OpenGameFramework.Editor.ModuleDisabledInfo.description
+  - OpenGameFramework.Editor.ModuleDisabledInfo.hash
+  - OpenGameFramework.Editor.ModuleDisabledInfo.name
+  - OpenGameFramework.Editor.ModuleDisabledInfo.state
+  - OpenGameFramework.Editor.ModuleDisabledInfo.type
+  - OpenGameFramework.Editor.ModuleDisabledInfo.version
+  langs:
+  - csharp
+  - vb
+  name: ModuleDisabledInfo
+  nameWithType: ModuleDisabledInfo
+  fullName: OpenGameFramework.Editor.ModuleDisabledInfo
+  type: Class
+  source:
+    id: ModuleDisabledInfo
+    path: ''
+    startLine: 2028
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public class ModuleDisabledInfo
+    content.vb: Public Class ModuleDisabledInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.Editor.ModuleDisabledInfo.archive_name
+  commentId: F:OpenGameFramework.Editor.ModuleDisabledInfo.archive_name
+  id: archive_name
+  parent: OpenGameFramework.Editor.ModuleDisabledInfo
+  langs:
+  - csharp
+  - vb
+  name: archive_name
+  nameWithType: ModuleDisabledInfo.archive_name
+  fullName: OpenGameFramework.Editor.ModuleDisabledInfo.archive_name
+  type: Field
+  source:
+    id: archive_name
+    path: ''
+    startLine: 2031
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public string archive_name
+    return:
+      type: System.String
+    content.vb: Public archive_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.Editor.ModuleDisabledInfo.hash
+  commentId: F:OpenGameFramework.Editor.ModuleDisabledInfo.hash
+  id: hash
+  parent: OpenGameFramework.Editor.ModuleDisabledInfo
+  langs:
+  - csharp
+  - vb
+  name: hash
+  nameWithType: ModuleDisabledInfo.hash
+  fullName: OpenGameFramework.Editor.ModuleDisabledInfo.hash
+  type: Field
+  source:
+    id: hash
+    path: ''
+    startLine: 2033
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public string hash
+    return:
+      type: System.String
+    content.vb: Public hash As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.Editor.ModuleDisabledInfo.name
+  commentId: F:OpenGameFramework.Editor.ModuleDisabledInfo.name
+  id: name
+  parent: OpenGameFramework.Editor.ModuleDisabledInfo
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: ModuleDisabledInfo.name
+  fullName: OpenGameFramework.Editor.ModuleDisabledInfo.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 2034
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.Editor.ModuleDisabledInfo.version
+  commentId: F:OpenGameFramework.Editor.ModuleDisabledInfo.version
+  id: version
+  parent: OpenGameFramework.Editor.ModuleDisabledInfo
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: ModuleDisabledInfo.version
+  fullName: OpenGameFramework.Editor.ModuleDisabledInfo.version
+  type: Field
+  source:
+    id: version
+    path: ''
+    startLine: 2035
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public string version
+    return:
+      type: System.String
+    content.vb: Public version As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.Editor.ModuleDisabledInfo.type
+  commentId: F:OpenGameFramework.Editor.ModuleDisabledInfo.type
+  id: type
+  parent: OpenGameFramework.Editor.ModuleDisabledInfo
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: ModuleDisabledInfo.type
+  fullName: OpenGameFramework.Editor.ModuleDisabledInfo.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 2037
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public int type
+    return:
+      type: System.Int32
+    content.vb: Public type As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.Editor.ModuleDisabledInfo.state
+  commentId: F:OpenGameFramework.Editor.ModuleDisabledInfo.state
+  id: state
+  parent: OpenGameFramework.Editor.ModuleDisabledInfo
+  langs:
+  - csharp
+  - vb
+  name: state
+  nameWithType: ModuleDisabledInfo.state
+  fullName: OpenGameFramework.Editor.ModuleDisabledInfo.state
+  type: Field
+  source:
+    id: state
+    path: ''
+    startLine: 2038
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public int state
+    return:
+      type: System.Int32
+    content.vb: Public state As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.Editor.ModuleDisabledInfo.description
+  commentId: F:OpenGameFramework.Editor.ModuleDisabledInfo.description
+  id: description
+  parent: OpenGameFramework.Editor.ModuleDisabledInfo
+  langs:
+  - csharp
+  - vb
+  name: description
+  nameWithType: ModuleDisabledInfo.description
+  fullName: OpenGameFramework.Editor.ModuleDisabledInfo.description
+  type: Field
+  source:
+    id: description
+    path: ''
+    startLine: 2039
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.Editor
+  syntax:
+    content: public string description
+    return:
+      type: System.String
+    content.vb: Public description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenGameFramework.Editor
+  commentId: N:OpenGameFramework.Editor
+  name: OpenGameFramework.Editor
+  nameWithType: OpenGameFramework.Editor
+  fullName: OpenGameFramework.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

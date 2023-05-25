@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.MainLoop.State
+  commentId: T:OpenGameFramework.MainLoop.State
+  id: MainLoop.State
+  parent: OpenGameFramework
+  children:
+  - OpenGameFramework.MainLoop.State.Init
+  - OpenGameFramework.MainLoop.State.Main
+  - OpenGameFramework.MainLoop.State.PostInit
+  - OpenGameFramework.MainLoop.State.PreInit
+  langs:
+  - csharp
+  - vb
+  name: MainLoop.State
+  nameWithType: MainLoop.State
+  fullName: OpenGameFramework.MainLoop.State
+  type: Enum
+  source:
+    id: State
+    path: ''
+    startLine: 42
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public enum State
+    content.vb: Public Enum State
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: OpenGameFramework.MainLoop.State.PreInit
+  commentId: F:OpenGameFramework.MainLoop.State.PreInit
+  id: PreInit
+  parent: OpenGameFramework.MainLoop.State
+  langs:
+  - csharp
+  - vb
+  name: PreInit
+  nameWithType: MainLoop.State.PreInit
+  fullName: OpenGameFramework.MainLoop.State.PreInit
+  type: Field
+  source:
+    id: PreInit
+    path: ''
+    startLine: 44
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: PreInit = 0
+    return:
+      type: OpenGameFramework.MainLoop.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.MainLoop.State.Init
+  commentId: F:OpenGameFramework.MainLoop.State.Init
+  id: Init
+  parent: OpenGameFramework.MainLoop.State
+  langs:
+  - csharp
+  - vb
+  name: Init
+  nameWithType: MainLoop.State.Init
+  fullName: OpenGameFramework.MainLoop.State.Init
+  type: Field
+  source:
+    id: Init
+    path: ''
+    startLine: 45
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: Init = 10
+    return:
+      type: OpenGameFramework.MainLoop.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.MainLoop.State.PostInit
+  commentId: F:OpenGameFramework.MainLoop.State.PostInit
+  id: PostInit
+  parent: OpenGameFramework.MainLoop.State
+  langs:
+  - csharp
+  - vb
+  name: PostInit
+  nameWithType: MainLoop.State.PostInit
+  fullName: OpenGameFramework.MainLoop.State.PostInit
+  type: Field
+  source:
+    id: PostInit
+    path: ''
+    startLine: 46
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: PostInit = 20
+    return:
+      type: OpenGameFramework.MainLoop.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: OpenGameFramework.MainLoop.State.Main
+  commentId: F:OpenGameFramework.MainLoop.State.Main
+  id: Main
+  parent: OpenGameFramework.MainLoop.State
+  langs:
+  - csharp
+  - vb
+  name: Main
+  nameWithType: MainLoop.State.Main
+  fullName: OpenGameFramework.MainLoop.State.Main
+  type: Field
+  source:
+    id: Main
+    path: ''
+    startLine: 47
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: Main = 30
+    return:
+      type: OpenGameFramework.MainLoop.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: OpenGameFramework
+  commentId: N:OpenGameFramework
+  name: OpenGameFramework
+  nameWithType: OpenGameFramework
+  fullName: OpenGameFramework
+- uid: OpenGameFramework.MainLoop.State
+  commentId: T:OpenGameFramework.MainLoop.State
+  parent: OpenGameFramework
+  name: MainLoop.State
+  nameWithType: MainLoop.State
+  fullName: OpenGameFramework.MainLoop.State

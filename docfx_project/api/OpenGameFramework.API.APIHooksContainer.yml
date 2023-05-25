@@ -1,0 +1,568 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.API.APIHooksContainer
+  commentId: T:OpenGameFramework.API.APIHooksContainer
+  id: APIHooksContainer
+  parent: OpenGameFramework.API
+  children:
+  - OpenGameFramework.API.APIHooksContainer.OnandreTestHook
+  - OpenGameFramework.API.APIHooksContainer.OnBeforeStart
+  - OpenGameFramework.API.APIHooksContainer.OnLoadData
+  - OpenGameFramework.API.APIHooksContainer.OnMatch3BoardTestHook
+  - OpenGameFramework.API.APIHooksContainer.OnNewModuleTestHook
+  - OpenGameFramework.API.APIHooksContainer.OnSaveData
+  - OpenGameFramework.API.APIHooksContainer.OnStart
+  - OpenGameFramework.API.APIHooksContainer.Sample
+  langs:
+  - csharp
+  - vb
+  name: APIHooksContainer
+  nameWithType: APIHooksContainer
+  fullName: OpenGameFramework.API.APIHooksContainer
+  type: Class
+  source:
+    id: APIHooksContainer
+    path: ''
+    startLine: 3509
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public class APIHooksContainer
+    content.vb: Public Class APIHooksContainer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.API.APIHooksContainer.OnLoadData
+  commentId: F:OpenGameFramework.API.APIHooksContainer.OnLoadData
+  id: OnLoadData
+  parent: OpenGameFramework.API.APIHooksContainer
+  langs:
+  - csharp
+  - vb
+  name: OnLoadData
+  nameWithType: APIHooksContainer.OnLoadData
+  fullName: OpenGameFramework.API.APIHooksContainer.OnLoadData
+  type: Field
+  source:
+    id: OnLoadData
+    path: ''
+    startLine: 3002
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public APIHooksContainer.Hook OnLoadData
+    return:
+      type: OpenGameFramework.API.APIHooksContainer.Hook
+    content.vb: Public OnLoadData As APIHooksContainer.Hook
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.APIHooksContainer.OnBeforeStart
+  commentId: F:OpenGameFramework.API.APIHooksContainer.OnBeforeStart
+  id: OnBeforeStart
+  parent: OpenGameFramework.API.APIHooksContainer
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeStart
+  nameWithType: APIHooksContainer.OnBeforeStart
+  fullName: OpenGameFramework.API.APIHooksContainer.OnBeforeStart
+  type: Field
+  source:
+    id: OnBeforeStart
+    path: ''
+    startLine: 3003
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public APIHooksContainer.Hook OnBeforeStart
+    return:
+      type: OpenGameFramework.API.APIHooksContainer.Hook
+    content.vb: Public OnBeforeStart As APIHooksContainer.Hook
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.APIHooksContainer.OnStart
+  commentId: F:OpenGameFramework.API.APIHooksContainer.OnStart
+  id: OnStart
+  parent: OpenGameFramework.API.APIHooksContainer
+  langs:
+  - csharp
+  - vb
+  name: OnStart
+  nameWithType: APIHooksContainer.OnStart
+  fullName: OpenGameFramework.API.APIHooksContainer.OnStart
+  type: Field
+  source:
+    id: OnStart
+    path: ''
+    startLine: 3004
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public APIHooksContainer.Hook OnStart
+    return:
+      type: OpenGameFramework.API.APIHooksContainer.Hook
+    content.vb: Public OnStart As APIHooksContainer.Hook
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.APIHooksContainer.OnSaveData
+  commentId: F:OpenGameFramework.API.APIHooksContainer.OnSaveData
+  id: OnSaveData
+  parent: OpenGameFramework.API.APIHooksContainer
+  langs:
+  - csharp
+  - vb
+  name: OnSaveData
+  nameWithType: APIHooksContainer.OnSaveData
+  fullName: OpenGameFramework.API.APIHooksContainer.OnSaveData
+  type: Field
+  source:
+    id: OnSaveData
+    path: ''
+    startLine: 3006
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public APIHooksContainer.Hook OnSaveData
+    return:
+      type: OpenGameFramework.API.APIHooksContainer.Hook
+    content.vb: Public OnSaveData As APIHooksContainer.Hook
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.APIHooksContainer.Sample
+  commentId: F:OpenGameFramework.API.APIHooksContainer.Sample
+  id: Sample
+  parent: OpenGameFramework.API.APIHooksContainer
+  langs:
+  - csharp
+  - vb
+  name: Sample
+  nameWithType: APIHooksContainer.Sample
+  fullName: OpenGameFramework.API.APIHooksContainer.Sample
+  type: Field
+  source:
+    id: Sample
+    path: ''
+    startLine: 3209
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public APIHooksContainer.Hook Sample
+    return:
+      type: OpenGameFramework.API.APIHooksContainer.Hook
+    content.vb: Public Sample As APIHooksContainer.Hook
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.APIHooksContainer.OnNewModuleTestHook
+  commentId: F:OpenGameFramework.API.APIHooksContainer.OnNewModuleTestHook
+  id: OnNewModuleTestHook
+  parent: OpenGameFramework.API.APIHooksContainer
+  langs:
+  - csharp
+  - vb
+  name: OnNewModuleTestHook
+  nameWithType: APIHooksContainer.OnNewModuleTestHook
+  fullName: OpenGameFramework.API.APIHooksContainer.OnNewModuleTestHook
+  type: Field
+  source:
+    id: OnNewModuleTestHook
+    path: ''
+    startLine: 3366
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public APIHooksContainer.Hook OnNewModuleTestHook
+    return:
+      type: OpenGameFramework.API.APIHooksContainer.Hook
+    content.vb: Public OnNewModuleTestHook As APIHooksContainer.Hook
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.APIHooksContainer.OnandreTestHook
+  commentId: F:OpenGameFramework.API.APIHooksContainer.OnandreTestHook
+  id: OnandreTestHook
+  parent: OpenGameFramework.API.APIHooksContainer
+  langs:
+  - csharp
+  - vb
+  name: OnandreTestHook
+  nameWithType: APIHooksContainer.OnandreTestHook
+  fullName: OpenGameFramework.API.APIHooksContainer.OnandreTestHook
+  type: Field
+  source:
+    id: OnandreTestHook
+    path: ''
+    startLine: 3469
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public APIHooksContainer.Hook OnandreTestHook
+    return:
+      type: OpenGameFramework.API.APIHooksContainer.Hook
+    content.vb: Public OnandreTestHook As APIHooksContainer.Hook
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: OpenGameFramework.API.APIHooksContainer.OnMatch3BoardTestHook
+  commentId: F:OpenGameFramework.API.APIHooksContainer.OnMatch3BoardTestHook
+  id: OnMatch3BoardTestHook
+  parent: OpenGameFramework.API.APIHooksContainer
+  langs:
+  - csharp
+  - vb
+  name: OnMatch3BoardTestHook
+  nameWithType: APIHooksContainer.OnMatch3BoardTestHook
+  fullName: OpenGameFramework.API.APIHooksContainer.OnMatch3BoardTestHook
+  type: Field
+  source:
+    id: OnMatch3BoardTestHook
+    path: ''
+    startLine: 3511
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public APIHooksContainer.Hook OnMatch3BoardTestHook
+    return:
+      type: OpenGameFramework.API.APIHooksContainer.Hook
+    content.vb: Public OnMatch3BoardTestHook As APIHooksContainer.Hook
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenGameFramework.API
+  commentId: N:OpenGameFramework.API
+  name: OpenGameFramework.API
+  nameWithType: OpenGameFramework.API
+  fullName: OpenGameFramework.API
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenGameFramework.API.APIHooksContainer.Hook
+  commentId: T:OpenGameFramework.API.APIHooksContainer.Hook
+  parent: OpenGameFramework.API
+  name: APIHooksContainer.Hook
+  nameWithType: APIHooksContainer.Hook
+  fullName: OpenGameFramework.API.APIHooksContainer.Hook

@@ -1,0 +1,346 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework
+  commentId: N:OpenGameFramework
+  id: OpenGameFramework
+  children:
+  - OpenGameFramework.APIHooksContainer
+  - OpenGameFramework.APIHooksContainer.Hook
+  - OpenGameFramework.APIHooksContainer.Hook`1
+  - OpenGameFramework.APIHooksContainer.Hook`2
+  - OpenGameFramework.APIHooksContainer.Hook`3
+  - OpenGameFramework.APIHooksContainer.Hook`4
+  - OpenGameFramework.App
+  - OpenGameFramework.AssetReferenceById
+  - OpenGameFramework.AssetsManager
+  - OpenGameFramework.GlobalConfig
+  - OpenGameFramework.GlobalConfigManager
+  - OpenGameFramework.GlobalConfigUpdater
+  - OpenGameFramework.IAppTask
+  - OpenGameFramework.InitAppTask
+  - OpenGameFramework.LoadAppTask
+  - OpenGameFramework.MainLoop
+  - OpenGameFramework.MainLoop.State
+  - OpenGameFramework.ModuleConfig
+  - OpenGameFramework.PreInitAppTask
+  - OpenGameFramework.SaveAppTask
+  langs:
+  - csharp
+  - vb
+  name: OpenGameFramework
+  nameWithType: OpenGameFramework
+  fullName: OpenGameFramework
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: OpenGameFramework.App
+  commentId: T:OpenGameFramework.App
+  name: App
+  nameWithType: App
+  fullName: OpenGameFramework.App
+- uid: OpenGameFramework.MainLoop
+  commentId: T:OpenGameFramework.MainLoop
+  name: MainLoop
+  nameWithType: MainLoop
+  fullName: OpenGameFramework.MainLoop
+- uid: OpenGameFramework.MainLoop.State
+  commentId: T:OpenGameFramework.MainLoop.State
+  parent: OpenGameFramework
+  name: MainLoop.State
+  nameWithType: MainLoop.State
+  fullName: OpenGameFramework.MainLoop.State
+- uid: OpenGameFramework.GlobalConfigManager
+  commentId: T:OpenGameFramework.GlobalConfigManager
+  name: GlobalConfigManager
+  nameWithType: GlobalConfigManager
+  fullName: OpenGameFramework.GlobalConfigManager
+- uid: OpenGameFramework.ModuleConfig
+  commentId: T:OpenGameFramework.ModuleConfig
+  name: ModuleConfig
+  nameWithType: ModuleConfig
+  fullName: OpenGameFramework.ModuleConfig
+- uid: OpenGameFramework.AssetReferenceById
+  commentId: T:OpenGameFramework.AssetReferenceById
+  name: AssetReferenceById
+  nameWithType: AssetReferenceById
+  fullName: OpenGameFramework.AssetReferenceById
+- uid: OpenGameFramework.GlobalConfig
+  commentId: T:OpenGameFramework.GlobalConfig
+  parent: OpenGameFramework
+  name: GlobalConfig
+  nameWithType: GlobalConfig
+  fullName: OpenGameFramework.GlobalConfig
+- uid: OpenGameFramework.GlobalConfigUpdater
+  commentId: T:OpenGameFramework.GlobalConfigUpdater
+  name: GlobalConfigUpdater
+  nameWithType: GlobalConfigUpdater
+  fullName: OpenGameFramework.GlobalConfigUpdater
+- uid: OpenGameFramework.APIHooksContainer
+  commentId: T:OpenGameFramework.APIHooksContainer
+  name: APIHooksContainer
+  nameWithType: APIHooksContainer
+  fullName: OpenGameFramework.APIHooksContainer
+- uid: OpenGameFramework.APIHooksContainer.Hook
+  commentId: T:OpenGameFramework.APIHooksContainer.Hook
+  parent: OpenGameFramework
+  name: APIHooksContainer.Hook
+  nameWithType: APIHooksContainer.Hook
+  fullName: OpenGameFramework.APIHooksContainer.Hook
+- uid: OpenGameFramework.APIHooksContainer.Hook`1
+  commentId: T:OpenGameFramework.APIHooksContainer.Hook`1
+  parent: OpenGameFramework
+  name: APIHooksContainer.Hook<T>
+  nameWithType: APIHooksContainer.Hook<T>
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T>
+  nameWithType.vb: APIHooksContainer.Hook(Of T)
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T)
+  name.vb: APIHooksContainer.Hook(Of T)
+  spec.csharp:
+  - uid: OpenGameFramework.APIHooksContainer.Hook`1
+    name: APIHooksContainer.Hook
+    nameWithType: APIHooksContainer.Hook
+    fullName: OpenGameFramework.APIHooksContainer.Hook
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenGameFramework.APIHooksContainer.Hook`1
+    name: APIHooksContainer.Hook
+    nameWithType: APIHooksContainer.Hook
+    fullName: OpenGameFramework.APIHooksContainer.Hook
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenGameFramework.APIHooksContainer.Hook`2
+  commentId: T:OpenGameFramework.APIHooksContainer.Hook`2
+  parent: OpenGameFramework
+  name: APIHooksContainer.Hook<T1, T2>
+  nameWithType: APIHooksContainer.Hook<T1, T2>
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T1, T2>
+  nameWithType.vb: APIHooksContainer.Hook(Of T1, T2)
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T1, T2)
+  name.vb: APIHooksContainer.Hook(Of T1, T2)
+  spec.csharp:
+  - uid: OpenGameFramework.APIHooksContainer.Hook`2
+    name: APIHooksContainer.Hook
+    nameWithType: APIHooksContainer.Hook
+    fullName: OpenGameFramework.APIHooksContainer.Hook
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenGameFramework.APIHooksContainer.Hook`2
+    name: APIHooksContainer.Hook
+    nameWithType: APIHooksContainer.Hook
+    fullName: OpenGameFramework.APIHooksContainer.Hook
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenGameFramework.APIHooksContainer.Hook`3
+  commentId: T:OpenGameFramework.APIHooksContainer.Hook`3
+  parent: OpenGameFramework
+  name: APIHooksContainer.Hook<T1, T2, T3>
+  nameWithType: APIHooksContainer.Hook<T1, T2, T3>
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T1, T2, T3>
+  nameWithType.vb: APIHooksContainer.Hook(Of T1, T2, T3)
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T1, T2, T3)
+  name.vb: APIHooksContainer.Hook(Of T1, T2, T3)
+  spec.csharp:
+  - uid: OpenGameFramework.APIHooksContainer.Hook`3
+    name: APIHooksContainer.Hook
+    nameWithType: APIHooksContainer.Hook
+    fullName: OpenGameFramework.APIHooksContainer.Hook
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenGameFramework.APIHooksContainer.Hook`3
+    name: APIHooksContainer.Hook
+    nameWithType: APIHooksContainer.Hook
+    fullName: OpenGameFramework.APIHooksContainer.Hook
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenGameFramework.APIHooksContainer.Hook`4
+  commentId: T:OpenGameFramework.APIHooksContainer.Hook`4
+  parent: OpenGameFramework
+  name: APIHooksContainer.Hook<T1, T2, T3, T4>
+  nameWithType: APIHooksContainer.Hook<T1, T2, T3, T4>
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T1, T2, T3, T4>
+  nameWithType.vb: APIHooksContainer.Hook(Of T1, T2, T3, T4)
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T1, T2, T3, T4)
+  name.vb: APIHooksContainer.Hook(Of T1, T2, T3, T4)
+  spec.csharp:
+  - uid: OpenGameFramework.APIHooksContainer.Hook`4
+    name: APIHooksContainer.Hook
+    nameWithType: APIHooksContainer.Hook
+    fullName: OpenGameFramework.APIHooksContainer.Hook
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T4
+    nameWithType: T4
+    fullName: T4
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenGameFramework.APIHooksContainer.Hook`4
+    name: APIHooksContainer.Hook
+    nameWithType: APIHooksContainer.Hook
+    fullName: OpenGameFramework.APIHooksContainer.Hook
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T4
+    nameWithType: T4
+    fullName: T4
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenGameFramework.InitAppTask
+  commentId: T:OpenGameFramework.InitAppTask
+  name: InitAppTask
+  nameWithType: InitAppTask
+  fullName: OpenGameFramework.InitAppTask
+- uid: OpenGameFramework.PreInitAppTask
+  commentId: T:OpenGameFramework.PreInitAppTask
+  name: PreInitAppTask
+  nameWithType: PreInitAppTask
+  fullName: OpenGameFramework.PreInitAppTask
+- uid: OpenGameFramework.LoadAppTask
+  commentId: T:OpenGameFramework.LoadAppTask
+  name: LoadAppTask
+  nameWithType: LoadAppTask
+  fullName: OpenGameFramework.LoadAppTask
+- uid: OpenGameFramework.SaveAppTask
+  commentId: T:OpenGameFramework.SaveAppTask
+  name: SaveAppTask
+  nameWithType: SaveAppTask
+  fullName: OpenGameFramework.SaveAppTask
+- uid: OpenGameFramework.IAppTask
+  commentId: T:OpenGameFramework.IAppTask
+  parent: OpenGameFramework
+  name: IAppTask
+  nameWithType: IAppTask
+  fullName: OpenGameFramework.IAppTask
+- uid: OpenGameFramework.AssetsManager
+  commentId: T:OpenGameFramework.AssetsManager
+  parent: OpenGameFramework
+  name: AssetsManager
+  nameWithType: AssetsManager
+  fullName: OpenGameFramework.AssetsManager
+- uid: OpenGameFramework
+  commentId: N:OpenGameFramework
+  name: OpenGameFramework
+  nameWithType: OpenGameFramework
+  fullName: OpenGameFramework

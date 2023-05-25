@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.ModuleConfig
+  commentId: T:OpenGameFramework.ModuleConfig
+  id: ModuleConfig
+  parent: OpenGameFramework
+  children:
+  - OpenGameFramework.ModuleConfig.AssetsReferences
+  - OpenGameFramework.ModuleConfig.UIElementReferences
+  langs:
+  - csharp
+  - vb
+  name: ModuleConfig
+  nameWithType: ModuleConfig
+  fullName: OpenGameFramework.ModuleConfig
+  type: Class
+  source:
+    id: ModuleConfig
+    path: ''
+    startLine: 2113
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: 'public class ModuleConfig : ScriptableObject'
+    content.vb: >-
+      Public Class ModuleConfig
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenGameFramework.ModuleConfig.UIElementReferences
+  commentId: P:OpenGameFramework.ModuleConfig.UIElementReferences
+  id: UIElementReferences
+  parent: OpenGameFramework.ModuleConfig
+  langs:
+  - csharp
+  - vb
+  name: UIElementReferences
+  nameWithType: ModuleConfig.UIElementReferences
+  fullName: OpenGameFramework.ModuleConfig.UIElementReferences
+  type: Property
+  source:
+    id: UIElementReferences
+    path: ''
+    startLine: 2121
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public IReadOnlyList<AssetReferenceById> UIElementReferences { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{OpenGameFramework.AssetReferenceById}
+    content.vb: Public ReadOnly Property UIElementReferences As IReadOnlyList(Of AssetReferenceById)
+  overload: OpenGameFramework.ModuleConfig.UIElementReferences*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: OpenGameFramework.ModuleConfig.AssetsReferences
+  commentId: P:OpenGameFramework.ModuleConfig.AssetsReferences
+  id: AssetsReferences
+  parent: OpenGameFramework.ModuleConfig
+  langs:
+  - csharp
+  - vb
+  name: AssetsReferences
+  nameWithType: ModuleConfig.AssetsReferences
+  fullName: OpenGameFramework.ModuleConfig.AssetsReferences
+  type: Property
+  source:
+    id: AssetsReferences
+    path: ''
+    startLine: 2122
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public IReadOnlyList<AssetReferenceById> AssetsReferences { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{OpenGameFramework.AssetReferenceById}
+    content.vb: Public ReadOnly Property AssetsReferences As IReadOnlyList(Of AssetReferenceById)
+  overload: OpenGameFramework.ModuleConfig.AssetsReferences*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: OpenGameFramework
+  commentId: N:OpenGameFramework
+  name: OpenGameFramework
+  nameWithType: OpenGameFramework
+  fullName: OpenGameFramework
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenGameFramework.ModuleConfig.UIElementReferences*
+  commentId: Overload:OpenGameFramework.ModuleConfig.UIElementReferences
+  name: UIElementReferences
+  nameWithType: ModuleConfig.UIElementReferences
+  fullName: OpenGameFramework.ModuleConfig.UIElementReferences
+- uid: System.Collections.Generic.IReadOnlyList{OpenGameFramework.AssetReferenceById}
+  commentId: T:System.Collections.Generic.IReadOnlyList{OpenGameFramework.AssetReferenceById}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  name: IReadOnlyList<AssetReferenceById>
+  nameWithType: IReadOnlyList<AssetReferenceById>
+  fullName: System.Collections.Generic.IReadOnlyList<OpenGameFramework.AssetReferenceById>
+  nameWithType.vb: IReadOnlyList(Of AssetReferenceById)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of OpenGameFramework.AssetReferenceById)
+  name.vb: IReadOnlyList(Of AssetReferenceById)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: System.Collections.Generic.IReadOnlyList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenGameFramework.AssetReferenceById
+    name: AssetReferenceById
+    nameWithType: AssetReferenceById
+    fullName: OpenGameFramework.AssetReferenceById
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: System.Collections.Generic.IReadOnlyList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenGameFramework.AssetReferenceById
+    name: AssetReferenceById
+    nameWithType: AssetReferenceById
+    fullName: OpenGameFramework.AssetReferenceById
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: System.Collections.Generic.IReadOnlyList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: System.Collections.Generic.IReadOnlyList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: OpenGameFramework.ModuleConfig.AssetsReferences*
+  commentId: Overload:OpenGameFramework.ModuleConfig.AssetsReferences
+  name: AssetsReferences
+  nameWithType: ModuleConfig.AssetsReferences
+  fullName: OpenGameFramework.ModuleConfig.AssetsReferences

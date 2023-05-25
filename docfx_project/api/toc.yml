@@ -1,0 +1,40 @@
+### YamlMime:TableOfContent
+- uid: OpenGameFramework.API
+  name: OpenGameFramework.API
+  items:
+  - uid: OpenGameFramework.API.andreService
+    name: andreService
+  - uid: OpenGameFramework.API.API
+    name: API
+  - uid: OpenGameFramework.API.API.Domain
+    name: API.Domain
+  - uid: OpenGameFramework.API.API.Domain.IandreService
+    name: API.Domain.IandreService
+  - uid: OpenGameFramework.API.API.Domain.IMatch3BoardService
+    name: API.Domain.IMatch3BoardService
+  - uid: OpenGameFramework.API.API.Domain.INewModuleService
+    name: API.Domain.INewModuleService
+  - uid: OpenGameFramework.API.API.System
+    name: API.System
+  - uid: OpenGameFramework.API.API.System.IandreService
+    name: API.System.IandreService
+  - uid: OpenGameFramework.API.APIHooksContainer
+    name: APIHooksContainer
+  - uid: OpenGameFramework.API.APIHooksContainer.Hook
+    name: APIHooksContainer.Hook
+  - uid: OpenGameFramework.API.APIHooksContainer.Hook`1
+    name: APIHooksContainer.Hook<T>
+    name.vb: APIHooksContainer.Hook(Of T)
+  - uid: OpenGameFramework.API.APIHooksContainer.Hook`4
+    name: APIHooksContainer.Hook<T1, T2, T3, T4>
+    name.vb: APIHooksContainer.Hook(Of T1, T2, T3, T4)
+  - uid: OpenGameFramework.API.APIHooksContainer.Hook`3
+    name: APIHooksContainer.Hook<T1, T2, T3>
+    name.vb: APIHooksContainer.Hook(Of T1, T2, T3)
+  - uid: OpenGameFramework.API.APIHooksContainer.Hook`2
+    name: APIHooksContainer.Hook<T1, T2>
+    name.vb: APIHooksContainer.Hook(Of T1, T2)
+  - uid: OpenGameFramework.API.Match3BoardService
+    name: Match3BoardService
+  - uid: OpenGameFramework.API.NewModuleService
+    name: NewModuleService

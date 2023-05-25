@@ -1,0 +1,19 @@
+{
+    "hash": "b6ff0f3e1269db30927042a7efee906d",
+    "category": "",
+    "name": "GlobalConfigManager",
+    "custom_manager_name": "GlobalConfigManager",
+    "version": "0.1.2",
+    "author": "",
+    "site": "",
+    "email": "",
+    "type": 0,
+    "state": 0,
+    "description": "(Legacy with Singleton) Global config for other modules",
+    "preinit": true,
+    "critical": true,
+    "dependencies": [],
+    "utils": [],
+    "plugins": [],
+    "content_files": []
+}

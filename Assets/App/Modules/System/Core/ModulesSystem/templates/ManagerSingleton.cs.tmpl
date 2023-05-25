@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace OpenGameFramework
+{
+    public class {0} : SingletonCrossScene<{0}>
+    {
+        /// <summary>
+        /// Pre-initialization function
+        /// </summary>
+        public void PreInit()
+        {
+            RegisterStaticObject();
+        }
+
+        /// <summary>
+        /// Registers (creates and initializes) a global static variable so that we can access the manager from any part of the code.
+        /// The singleton pattern (thread-safe) is implemented.
+        /// </summary>
+        public void RegisterStaticObject()
+        {
+            App.{0} = {0}.Instance();
+        }
+    }
+}

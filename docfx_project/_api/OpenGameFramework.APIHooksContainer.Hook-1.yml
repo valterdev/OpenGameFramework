@@ -1,0 +1,571 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.APIHooksContainer.Hook`1
+  commentId: T:OpenGameFramework.APIHooksContainer.Hook`1
+  id: APIHooksContainer.Hook`1
+  parent: OpenGameFramework
+  children:
+  - OpenGameFramework.APIHooksContainer.Hook`1.Invoke(`0)
+  - OpenGameFramework.APIHooksContainer.Hook`1.op_Addition(OpenGameFramework.APIHooksContainer.Hook{`0},Action{`0})
+  - OpenGameFramework.APIHooksContainer.Hook`1.op_Subtraction(OpenGameFramework.APIHooksContainer.Hook{`0},Action{`0})
+  langs:
+  - csharp
+  - vb
+  name: APIHooksContainer.Hook<T>
+  nameWithType: APIHooksContainer.Hook<T>
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T>
+  type: Struct
+  source:
+    id: Hook
+    path: ''
+    startLine: 2389
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public struct Hook<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Structure Hook(Of T)
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  nameWithType.vb: APIHooksContainer.Hook(Of T)
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T)
+  name.vb: APIHooksContainer.Hook(Of T)
+- uid: OpenGameFramework.APIHooksContainer.Hook`1.Invoke(`0)
+  commentId: M:OpenGameFramework.APIHooksContainer.Hook`1.Invoke(`0)
+  id: Invoke(`0)
+  parent: OpenGameFramework.APIHooksContainer.Hook`1
+  langs:
+  - csharp
+  - vb
+  name: Invoke(T)
+  nameWithType: APIHooksContainer.Hook<T>.Invoke(T)
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T>.Invoke(T)
+  type: Method
+  source:
+    id: Invoke
+    path: ''
+    startLine: 2393
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public void Invoke(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+    content.vb: Public Sub Invoke(value As T)
+  overload: OpenGameFramework.APIHooksContainer.Hook`1.Invoke*
+  nameWithType.vb: APIHooksContainer.Hook(Of T).Invoke(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T).Invoke(T)
+- uid: OpenGameFramework.APIHooksContainer.Hook`1.op_Addition(OpenGameFramework.APIHooksContainer.Hook{`0},Action{`0})
+  commentId: M:OpenGameFramework.APIHooksContainer.Hook`1.op_Addition(OpenGameFramework.APIHooksContainer.Hook{`0},Action{`0})
+  id: op_Addition(OpenGameFramework.APIHooksContainer.Hook{`0},Action{`0})
+  parent: OpenGameFramework.APIHooksContainer.Hook`1
+  langs:
+  - csharp
+  - vb
+  name: Addition(APIHooksContainer.Hook<T>, Action<T>)
+  nameWithType: APIHooksContainer.Hook<T>.Addition(APIHooksContainer.Hook<T>, Action<T>)
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T>.Addition(OpenGameFramework.APIHooksContainer.Hook<T>, Action<T>)
+  type: Operator
+  source:
+    id: op_Addition
+    path: ''
+    startLine: 2411
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public static APIHooksContainer.Hook<T> operator +(APIHooksContainer.Hook<T> hook, Action<T> action)
+    parameters:
+    - id: hook
+      type: OpenGameFramework.APIHooksContainer.Hook`1
+    - id: action
+      type: Action{{T}}
+    return:
+      type: OpenGameFramework.APIHooksContainer.Hook`1
+    content.vb: Public Shared Operator +(hook As APIHooksContainer.Hook(Of T), action As Action(Of T)) As APIHooksContainer.Hook(Of T)
+  overload: OpenGameFramework.APIHooksContainer.Hook`1.op_Addition*
+  nameWithType.vb: APIHooksContainer.Hook(Of T).Addition(APIHooksContainer.Hook(Of T), Action(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T).Addition(OpenGameFramework.APIHooksContainer.Hook(Of T), Action(Of T))
+  name.vb: Addition(APIHooksContainer.Hook(Of T), Action(Of T))
+- uid: OpenGameFramework.APIHooksContainer.Hook`1.op_Subtraction(OpenGameFramework.APIHooksContainer.Hook{`0},Action{`0})
+  commentId: M:OpenGameFramework.APIHooksContainer.Hook`1.op_Subtraction(OpenGameFramework.APIHooksContainer.Hook{`0},Action{`0})
+  id: op_Subtraction(OpenGameFramework.APIHooksContainer.Hook{`0},Action{`0})
+  parent: OpenGameFramework.APIHooksContainer.Hook`1
+  langs:
+  - csharp
+  - vb
+  name: Subtraction(APIHooksContainer.Hook<T>, Action<T>)
+  nameWithType: APIHooksContainer.Hook<T>.Subtraction(APIHooksContainer.Hook<T>, Action<T>)
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T>.Subtraction(OpenGameFramework.APIHooksContainer.Hook<T>, Action<T>)
+  type: Operator
+  source:
+    id: op_Subtraction
+    path: ''
+    startLine: 2417
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework
+  syntax:
+    content: public static APIHooksContainer.Hook<T> operator -(APIHooksContainer.Hook<T> hook, Action<T> action)
+    parameters:
+    - id: hook
+      type: OpenGameFramework.APIHooksContainer.Hook`1
+    - id: action
+      type: Action{{T}}
+    return:
+      type: OpenGameFramework.APIHooksContainer.Hook`1
+    content.vb: Public Shared Operator -(hook As APIHooksContainer.Hook(Of T), action As Action(Of T)) As APIHooksContainer.Hook(Of T)
+  overload: OpenGameFramework.APIHooksContainer.Hook`1.op_Subtraction*
+  nameWithType.vb: APIHooksContainer.Hook(Of T).Subtraction(APIHooksContainer.Hook(Of T), Action(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T).Subtraction(OpenGameFramework.APIHooksContainer.Hook(Of T), Action(Of T))
+  name.vb: Subtraction(APIHooksContainer.Hook(Of T), Action(Of T))
+references:
+- uid: OpenGameFramework
+  commentId: N:OpenGameFramework
+  name: OpenGameFramework
+  nameWithType: OpenGameFramework
+  fullName: OpenGameFramework
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenGameFramework.APIHooksContainer.Hook`1.Invoke*
+  commentId: Overload:OpenGameFramework.APIHooksContainer.Hook`1.Invoke
+  name: Invoke
+  nameWithType: APIHooksContainer.Hook<T>.Invoke
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T>.Invoke
+  nameWithType.vb: APIHooksContainer.Hook(Of T).Invoke
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T).Invoke
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: OpenGameFramework.APIHooksContainer.Hook`1.op_Addition*
+  commentId: Overload:OpenGameFramework.APIHooksContainer.Hook`1.op_Addition
+  name: Addition
+  nameWithType: APIHooksContainer.Hook<T>.Addition
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T>.Addition
+  nameWithType.vb: APIHooksContainer.Hook(Of T).Addition
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T).Addition
+- uid: OpenGameFramework.APIHooksContainer.Hook`1
+  commentId: T:OpenGameFramework.APIHooksContainer.Hook`1
+  parent: OpenGameFramework
+  name: APIHooksContainer.Hook<T>
+  nameWithType: APIHooksContainer.Hook<T>
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T>
+  nameWithType.vb: APIHooksContainer.Hook(Of T)
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T)
+  name.vb: APIHooksContainer.Hook(Of T)
+  spec.csharp:
+  - uid: OpenGameFramework.APIHooksContainer.Hook`1
+    name: APIHooksContainer.Hook
+    nameWithType: APIHooksContainer.Hook
+    fullName: OpenGameFramework.APIHooksContainer.Hook
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenGameFramework.APIHooksContainer.Hook`1
+    name: APIHooksContainer.Hook
+    nameWithType: APIHooksContainer.Hook
+    fullName: OpenGameFramework.APIHooksContainer.Hook
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action{{T}}
+  commentId: '!:Action{`0}'
+  definition: Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenGameFramework.APIHooksContainer.Hook`1.op_Subtraction*
+  commentId: Overload:OpenGameFramework.APIHooksContainer.Hook`1.op_Subtraction
+  name: Subtraction
+  nameWithType: APIHooksContainer.Hook<T>.Subtraction
+  fullName: OpenGameFramework.APIHooksContainer.Hook<T>.Subtraction
+  nameWithType.vb: APIHooksContainer.Hook(Of T).Subtraction
+  fullName.vb: OpenGameFramework.APIHooksContainer.Hook(Of T).Subtraction

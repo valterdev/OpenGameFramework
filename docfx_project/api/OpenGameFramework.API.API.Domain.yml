@@ -1,0 +1,36 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenGameFramework.API.API.Domain
+  commentId: T:OpenGameFramework.API.API.Domain
+  id: API.Domain
+  parent: OpenGameFramework.API
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: API.Domain
+  nameWithType: API.Domain
+  fullName: OpenGameFramework.API.API.Domain
+  type: Interface
+  source:
+    id: Domain
+    path: ''
+    startLine: 3520
+  assemblies:
+  - cs.temp.dll
+  namespace: OpenGameFramework.API
+  syntax:
+    content: public interface Domain
+    content.vb: Public Interface Domain
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: OpenGameFramework.API
+  commentId: N:OpenGameFramework.API
+  name: OpenGameFramework.API
+  nameWithType: OpenGameFramework.API
+  fullName: OpenGameFramework.API
