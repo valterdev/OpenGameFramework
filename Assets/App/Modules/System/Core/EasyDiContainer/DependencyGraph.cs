@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using System;
+using System.Collections;
+using System.Linq;
 using UnityEngine;
 
 namespace OpenGameFramework.DI
@@ -7,41 +9,38 @@ namespace OpenGameFramework.DI
     public class DependencyGraph
     {
         private Dictionary<InjectRelation, DependencyNode> _nodes = new();
+        Dictionary<int, HashSet<InjectRelation>> _layers = new();
         private HashSet<InjectRelation> _resolvedInjections = new();
+
         public void AddNode(InjectRelation node)
         {
             if (!_nodes.ContainsKey(node))
             {
-                _nodes.Add(node, new DependencyNode(){ Node = node });
+                _nodes.Add(node, new DependencyNode() { Node = node });
             }
         }
 
         public void AddNodes(InjectRelation node, InjectRelation[] dependencies)
         {
+            if (!_nodes.ContainsKey(node))
+            {
+                _nodes.Add(node, new DependencyNode() { Node = node });
+            }
+
+            _nodes[node].Parent = true;
+
             foreach (var dependency in dependencies)
             {
-                if (!_nodes.ContainsKey(node))
-                {
-                    _nodes.Add(node, new DependencyNode(){ Node = node });
-                }
-                
                 if (!_nodes.ContainsKey(dependency))
                 {
-                    LinkedList<InjectRelation> childs = new(); 
-                    childs.AddLast(node);
-                    
-                    _nodes.Add(dependency, new DependencyNode()
-                    {
-                        Node = dependency, 
-                        Childs = childs
-                    });
+                    _nodes.Add(dependency, new DependencyNode() { Node = dependency });
                 }
-                else
+
+                _nodes[dependency].Childs ??= new LinkedList<DependencyNode>();
+
+                if (!_nodes[dependency].Childs.Select(x => x.Node).Contains(node))
                 {
-                    if (!_nodes[dependency].Childs.Contains(node))
-                    {
-                        _nodes[dependency].Childs.AddLast(node);
-                    }
+                    _nodes[dependency].Childs.AddLast(new DependencyNode() { Node = node });
                 }
             }
         }
@@ -51,56 +50,67 @@ namespace OpenGameFramework.DI
             foreach (var node in _nodes)
             {
                 if (node.Value.Childs == null) continue;
-                
+
                 foreach (var dependency in node.Value.Childs)
                 {
-                    if (node.Key == dependency) return true;
+                    if (node.Key.Equals(dependency.Node)) return true;
                 }
             }
 
             return false;
         }
-        
+
         public void ResolveDependencies(Func<Type, IServiceDi> resolveAction)
         {
             _resolvedInjections.Clear();
-            
-            foreach (var rootNode in _nodes)
-            {
-                if (rootNode.Value.Childs == null)
-                {
-                    DepthFirstSearch(rootNode.Value, resolveAction);
-                }
-            }
+            BreadhFirstSearch(resolveAction);
         }
 
-        private void DepthFirstSearch(DependencyNode root, Func<Type, IServiceDi> resolveAction)
+        private void BreadhFirstSearch(Func<Type, IServiceDi> resolveAction)
         {
-            if (_resolvedInjections.Add(root.Node))
+            HashSet<InjectRelation> itemCovered = new();
+            Queue<InjectRelation> queue = new();
+            List<InjectRelation> initList = new();
+
+            foreach (var rootNode in _nodes
+                         .Where(x => !x.Value.Parent))
             {
-                resolveAction(root.Node.RealClass).PreInit();
+                queue.Enqueue(rootNode.Key);
             }
 
-            if (root.Childs == null) return;
-            
-            foreach (var node in root.Childs)
+            while (queue.Count > 0)
             {
-                if (_resolvedInjections.Add(node))
+                var element = queue.Dequeue();
+                if (itemCovered.Contains(element))
                 {
-                    resolveAction(node.RealClass).PreInit();
-
-                    if (_nodes[node].Childs != null)
-                    {
-                        DepthFirstSearch(_nodes[node], resolveAction);
-                    }
+                    continue;
                 }
+
+                itemCovered.Add(element);
+                
+                initList.Add(element);
+                _nodes.TryGetValue(element, out var neighbours);
+
+                if (neighbours?.Childs == null)
+                    continue;
+
+                foreach (var item1 in neighbours.Childs)
+                {
+                    queue.Enqueue(item1.Node);
+                }
+            }
+            
+            foreach (var service in initList)
+            {
+                resolveAction(service.RealClass).PreInit();
             }
         }
     }
 
     public class DependencyNode
     {
-        public InjectRelation Node;
-        public LinkedList<InjectRelation> Childs;
+        public InjectRelation Node { get; set; }
+        public bool Parent { get; set; } = false;
+        public LinkedList<DependencyNode> Childs { get; set; }
     }
 }

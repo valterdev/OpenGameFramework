@@ -16,7 +16,7 @@ namespace OpenGameFramework.DI
         public void PreInit()
         {
             List<InjectRelation> injectInfo = new();
-            
+
             Assembly[] assemblies = System.AppDomain.CurrentDomain.GetAssemblies();
             foreach (var assembly in assemblies)
             {
